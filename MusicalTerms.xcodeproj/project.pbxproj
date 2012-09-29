@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8480639D161693860072A5A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8480639C161693860072A5A6 /* UIKit.framework */; };
+		8480639F161693860072A5A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8480639E161693860072A5A6 /* Foundation.framework */; };
+		848063A1161693860072A5A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848063A0161693860072A5A6 /* CoreGraphics.framework */; };
+		848063A3161693860072A5A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848063A2161693860072A5A6 /* CoreData.framework */; };
+		848063A9161693860072A5A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848063A7161693860072A5A6 /* InfoPlist.strings */; };
+		848063AB161693860072A5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063AA161693860072A5A6 /* main.m */; };
+		848063AF161693860072A5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063AE161693860072A5A6 /* AppDelegate.m */; };
+		848063B1161693860072A5A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063B0161693860072A5A6 /* Default.png */; };
+		848063B3161693860072A5A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063B2161693860072A5A6 /* Default@2x.png */; };
+		848063B5161693860072A5A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063B4161693860072A5A6 /* Default-568h@2x.png */; };
+		848063B8161693860072A5A6 /* MusicalTerms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848063B6161693860072A5A6 /* MusicalTerms.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84806398161693860072A5A6 /* MusicalTerms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalTerms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480639C161693860072A5A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8480639E161693860072A5A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		848063A0161693860072A5A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		848063A2161693860072A5A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		848063A6161693860072A5A6 /* MusicalTerms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicalTerms-Info.plist"; sourceTree = "<group>"; };
+		848063A8161693860072A5A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		848063AA161693860072A5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848063AC161693860072A5A6 /* MusicalTerms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicalTerms-Prefix.pch"; sourceTree = "<group>"; };
+		848063AD161693860072A5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		848063AE161693860072A5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		848063B0161693860072A5A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		848063B2161693860072A5A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		848063B4161693860072A5A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		848063B7161693860072A5A6 /* MusicalTerms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicalTerms.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84806395161693860072A5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480639D161693860072A5A6 /* UIKit.framework in Frameworks */,
+				8480639F161693860072A5A6 /* Foundation.framework in Frameworks */,
+				848063A1161693860072A5A6 /* CoreGraphics.framework in Frameworks */,
+				848063A3161693860072A5A6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8480638D161693860072A5A6 = {
+			isa = PBXGroup;
+			children = (
+				848063A4161693860072A5A6 /* MusicalTerms */,
+				8480639B161693860072A5A6 /* Frameworks */,
+				84806399161693860072A5A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84806399161693860072A5A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84806398161693860072A5A6 /* MusicalTerms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8480639B161693860072A5A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8480639C161693860072A5A6 /* UIKit.framework */,
+				8480639E161693860072A5A6 /* Foundation.framework */,
+				848063A0161693860072A5A6 /* CoreGraphics.framework */,
+				848063A2161693860072A5A6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		848063A4161693860072A5A6 /* MusicalTerms */ = {
+			isa = PBXGroup;
+			children = (
+				848063AD161693860072A5A6 /* AppDelegate.h */,
+				848063AE161693860072A5A6 /* AppDelegate.m */,
+				848063B6161693860072A5A6 /* MusicalTerms.xcdatamodeld */,
+				848063A5161693860072A5A6 /* Supporting Files */,
+			);
+			path = MusicalTerms;
+			sourceTree = "<group>";
+		};
+		848063A5161693860072A5A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848063A6161693860072A5A6 /* MusicalTerms-Info.plist */,
+				848063A7161693860072A5A6 /* InfoPlist.strings */,
+				848063AA161693860072A5A6 /* main.m */,
+				848063AC161693860072A5A6 /* MusicalTerms-Prefix.pch */,
+				848063B0161693860072A5A6 /* Default.png */,
+				848063B2161693860072A5A6 /* Default@2x.png */,
+				848063B4161693860072A5A6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84806397161693860072A5A6 /* MusicalTerms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848063BB161693860072A5A6 /* Build configuration list for PBXNativeTarget "MusicalTerms" */;
+			buildPhases = (
+				84806394161693860072A5A6 /* Sources */,
+				84806395161693860072A5A6 /* Frameworks */,
+				84806396161693860072A5A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicalTerms;
+			productName = MusicalTerms;
+			productReference = 84806398161693860072A5A6 /* MusicalTerms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8480638F161693860072A5A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = runes;
+			};
+			buildConfigurationList = 84806392161693860072A5A6 /* Build configuration list for PBXProject "MusicalTerms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8480638D161693860072A5A6;
+			productRefGroup = 84806399161693860072A5A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84806397161693860072A5A6 /* MusicalTerms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84806396161693860072A5A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848063A9161693860072A5A6 /* InfoPlist.strings in Resources */,
+				848063B1161693860072A5A6 /* Default.png in Resources */,
+				848063B3161693860072A5A6 /* Default@2x.png in Resources */,
+				848063B5161693860072A5A6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84806394161693860072A5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848063AB161693860072A5A6 /* main.m in Sources */,
+				848063AF161693860072A5A6 /* AppDelegate.m in Sources */,
+				848063B8161693860072A5A6 /* MusicalTerms.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848063A7161693860072A5A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848063A8161693860072A5A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848063B9161693860072A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		848063BA161693860072A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848063BC161693860072A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicalTerms/MusicalTerms-Prefix.pch";
+				INFOPLIST_FILE = "MusicalTerms/MusicalTerms-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		848063BD161693860072A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicalTerms/MusicalTerms-Prefix.pch";
+				INFOPLIST_FILE = "MusicalTerms/MusicalTerms-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84806392161693860072A5A6 /* Build configuration list for PBXProject "MusicalTerms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848063B9161693860072A5A6 /* Debug */,
+				848063BA161693860072A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848063BB161693860072A5A6 /* Build configuration list for PBXNativeTarget "MusicalTerms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848063BC161693860072A5A6 /* Debug */,
+				848063BD161693860072A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		848063B6161693860072A5A6 /* MusicalTerms.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				848063B7161693860072A5A6 /* MusicalTerms.xcdatamodel */,
+			);
+			currentVersion = 848063B7161693860072A5A6 /* MusicalTerms.xcdatamodel */;
+			path = MusicalTerms.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8480638F161693860072A5A6 /* Project object */;
+}

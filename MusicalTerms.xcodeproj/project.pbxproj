@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8429DC371616F10100F7DC9D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8429DC361616F10100F7DC9D /* Default-Landscape~ipad.png */; };
+		8429DC391616F10B00F7DC9D /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8429DC381616F10B00F7DC9D /* Default-Landscape@2x~ipad.png */; };
+		8429DC3B1616F18E00F7DC9D /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8429DC3A1616F18E00F7DC9D /* Default-Portrait~ipad.png */; };
+		8429DC3D1616F19F00F7DC9D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8429DC3C1616F19F00F7DC9D /* Default-Portrait@2x~ipad.png */; };
 		8480639D161693860072A5A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8480639C161693860072A5A6 /* UIKit.framework */; };
 		8480639F161693860072A5A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8480639E161693860072A5A6 /* Foundation.framework */; };
 		848063A1161693860072A5A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848063A0161693860072A5A6 /* CoreGraphics.framework */; };
@@ -14,13 +18,238 @@
 		848063A9161693860072A5A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848063A7161693860072A5A6 /* InfoPlist.strings */; };
 		848063AB161693860072A5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063AA161693860072A5A6 /* main.m */; };
 		848063AF161693860072A5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063AE161693860072A5A6 /* AppDelegate.m */; };
-		848063B1161693860072A5A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063B0161693860072A5A6 /* Default.png */; };
-		848063B3161693860072A5A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063B2161693860072A5A6 /* Default@2x.png */; };
-		848063B5161693860072A5A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063B4161693860072A5A6 /* Default-568h@2x.png */; };
 		848063B8161693860072A5A6 /* MusicalTerms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848063B6161693860072A5A6 /* MusicalTerms.xcdatamodeld */; };
+		848064B4161693FA0072A5A6 /* ClassfyIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063C4161693FA0072A5A6 /* ClassfyIpadViewController.m */; };
+		848064B5161693FA0072A5A6 /* ClassfyIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848063C5161693FA0072A5A6 /* ClassfyIpadViewController.xib */; };
+		848064B6161693FA0072A5A6 /* DetailNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063C7161693FA0072A5A6 /* DetailNavigationViewController.m */; };
+		848064B7161693FA0072A5A6 /* DetailNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848063C8161693FA0072A5A6 /* DetailNavigationViewController.xib */; };
+		848064B8161693FA0072A5A6 /* HistoryIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063CA161693FA0072A5A6 /* HistoryIpadViewController.m */; };
+		848064B9161693FA0072A5A6 /* HistoryIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848063CB161693FA0072A5A6 /* HistoryIpadViewController.xib */; };
+		848064BA161693FA0072A5A6 /* IndexIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063CD161693FA0072A5A6 /* IndexIpadViewController.m */; };
+		848064BB161693FA0072A5A6 /* IndexIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848063CE161693FA0072A5A6 /* IndexIpadViewController.xib */; };
+		848064BC161693FA0072A5A6 /* RootIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063D0161693FA0072A5A6 /* RootIpadViewController.m */; };
+		848064BD161693FA0072A5A6 /* SearchIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063D2161693FA0072A5A6 /* SearchIpadViewController.m */; };
+		848064BE161693FA0072A5A6 /* SearchIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848063D3161693FA0072A5A6 /* SearchIpadViewController.xib */; };
+		848064BF161693FA0072A5A6 /* SpeedIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063D5161693FA0072A5A6 /* SpeedIpadViewController.m */; };
+		848064C0161693FA0072A5A6 /* SpeedIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848063D6161693FA0072A5A6 /* SpeedIpadViewController.xib */; };
+		848064C1161693FA0072A5A6 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063D9161693FA0072A5A6 /* DataBase.m */; };
+		848064C2161693FA0072A5A6 /* music_db.db in Resources */ = {isa = PBXBuildFile; fileRef = 848063DA161693FA0072A5A6 /* music_db.db */; };
+		848064C3161693FA0072A5A6 /* classfiyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063DC161693FA0072A5A6 /* classfiyIcon.png */; };
+		848064C4161693FA0072A5A6 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063DD161693FA0072A5A6 /* clock.png */; };
+		848064C5161693FA0072A5A6 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063DE161693FA0072A5A6 /* clock@2x.png */; };
+		848064C6161693FA0072A5A6 /* company_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063DF161693FA0072A5A6 /* company_logo.png */; };
+		848064C7161693FA0072A5A6 /* compassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E0161693FA0072A5A6 /* compassIcon.png */; };
+		848064C8161693FA0072A5A6 /* compassIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E1161693FA0072A5A6 /* compassIcon@2x.png */; };
+		848064C9161693FA0072A5A6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E2161693FA0072A5A6 /* Icon-Small-50.png */; };
+		848064CA161693FA0072A5A6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E3161693FA0072A5A6 /* Icon-Small.png */; };
+		848064CB161693FA0072A5A6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E4161693FA0072A5A6 /* Icon-Small@2x.png */; };
+		848064CC161693FA0072A5A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E5161693FA0072A5A6 /* Icon.png */; };
+		848064CD161693FA0072A5A6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E6161693FA0072A5A6 /* Icon@2x.png */; };
+		848064CE161693FA0072A5A6 /* icon_annoucement.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E7161693FA0072A5A6 /* icon_annoucement.png */; };
+		848064CF161693FA0072A5A6 /* icon_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E8161693FA0072A5A6 /* icon_glass.png */; };
+		848064D0161693FA0072A5A6 /* icon_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063E9161693FA0072A5A6 /* icon_star.png */; };
+		848064D1161693FA0072A5A6 /* icon_time.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063EA161693FA0072A5A6 /* icon_time.png */; };
+		848064D2161693FA0072A5A6 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063EB161693FA0072A5A6 /* music.png */; };
+		848064D3161693FA0072A5A6 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063EC161693FA0072A5A6 /* note.png */; };
+		848064D4161693FA0072A5A6 /* note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063ED161693FA0072A5A6 /* note@2x.png */; };
+		848064D5161693FA0072A5A6 /* searchTabBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063EE161693FA0072A5A6 /* searchTabBarIcon.png */; };
+		848064D6161693FA0072A5A6 /* searchTabBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063EF161693FA0072A5A6 /* searchTabBarIcon@2x.png */; };
+		848064D7161693FA0072A5A6 /* starIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063F0161693FA0072A5A6 /* starIcon.png */; };
+		848064D8161693FA0072A5A6 /* starIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848063F1161693FA0072A5A6 /* starIcon@2x.png */; };
+		848064D9161693FA0072A5A6 /* DictInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063F4161693FA0072A5A6 /* DictInfo.m */; };
+		848064DA161693FA0072A5A6 /* MusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 848063F6161693FA0072A5A6 /* MusicInfo.m */; };
+		848064DB161693FA0072A5A6 /* abattuta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063F8161693FA0072A5A6 /* abattuta.mp3 */; };
+		848064DC161693FA0072A5A6 /* acappella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063F9161693FA0072A5A6 /* acappella.mp3 */; };
+		848064DD161693FA0072A5A6 /* acapriccio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063FA161693FA0072A5A6 /* acapriccio.mp3 */; };
+		848064DE161693FA0072A5A6 /* accel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063FB161693FA0072A5A6 /* accel.mp3 */; };
+		848064DF161693FA0072A5A6 /* accelerando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063FC161693FA0072A5A6 /* accelerando.mp3 */; };
+		848064E0161693FA0072A5A6 /* accent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063FD161693FA0072A5A6 /* accent.mp3 */; };
+		848064E1161693FA0072A5A6 /* adagio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063FE161693FA0072A5A6 /* adagio.mp3 */; };
+		848064E2161693FA0072A5A6 /* adeux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848063FF161693FA0072A5A6 /* adeux.mp3 */; };
+		848064E3161693FA0072A5A6 /* adue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806400161693FA0072A5A6 /* adue.mp3 */; };
+		848064E4161693FA0072A5A6 /* allargando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806401161693FA0072A5A6 /* allargando.mp3 */; };
+		848064E5161693FA0072A5A6 /* allegretto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806402161693FA0072A5A6 /* allegretto.mp3 */; };
+		848064E6161693FA0072A5A6 /* allegrissimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806403161693FA0072A5A6 /* allegrissimo.mp3 */; };
+		848064E7161693FA0072A5A6 /* allegro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806404161693FA0072A5A6 /* allegro.mp3 */; };
+		848064E8161693FA0072A5A6 /* allemande.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806405161693FA0072A5A6 /* allemande.mp3 */; };
+		848064E9161693FA0072A5A6 /* allottava.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806406161693FA0072A5A6 /* allottava.mp3 */; };
+		848064EA161693FA0072A5A6 /* amoroso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806407161693FA0072A5A6 /* amoroso.mp3 */; };
+		848064EB161693FA0072A5A6 /* andante.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806408161693FA0072A5A6 /* andante.mp3 */; };
+		848064EC161693FA0072A5A6 /* andantino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806409161693FA0072A5A6 /* andantino.mp3 */; };
+		848064ED161693FA0072A5A6 /* apiacere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480640A161693FA0072A5A6 /* apiacere.mp3 */; };
+		848064EE161693FA0072A5A6 /* appassionato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480640B161693FA0072A5A6 /* appassionato.mp3 */; };
+		848064EF161693FA0072A5A6 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480640C161693FA0072A5A6 /* aria.mp3 */; };
+		848064F0161693FA0072A5A6 /* assai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480640D161693FA0072A5A6 /* assai.mp3 */; };
+		848064F1161693FA0072A5A6 /* atempo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480640E161693FA0072A5A6 /* atempo.mp3 */; };
+		848064F2161693FA0072A5A6 /* ballade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480640F161693FA0072A5A6 /* ballade.mp3 */; };
+		848064F3161693FA0072A5A6 /* balloon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84806410161693FA0072A5A6 /* balloon.wav */; };
+		848064F4161693FA0072A5A6 /* bassa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806411161693FA0072A5A6 /* bassa.mp3 */; };
+		848064F5161693FA0072A5A6 /* bourree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806412161693FA0072A5A6 /* bourree.mp3 */; };
+		848064F6161693FA0072A5A6 /* ca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806413161693FA0072A5A6 /* ca.mp3 */; };
+		848064F7161693FA0072A5A6 /* calando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806414161693FA0072A5A6 /* calando.mp3 */; };
+		848064F8161693FA0072A5A6 /* cantata.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806415161693FA0072A5A6 /* cantata.mp3 */; };
+		848064F9161693FA0072A5A6 /* capriccio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806416161693FA0072A5A6 /* capriccio.mp3 */; };
+		848064FA161693FA0072A5A6 /* chaconne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806417161693FA0072A5A6 /* chaconne.mp3 */; };
+		848064FB161693FA0072A5A6 /* circa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806418161693FA0072A5A6 /* circa.mp3 */; };
+		848064FC161693FA0072A5A6 /* col.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806419161693FA0072A5A6 /* col.mp3 */; };
+		848064FD161693FA0072A5A6 /* conbrio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480641A161693FA0072A5A6 /* conbrio.mp3 */; };
+		848064FE161693FA0072A5A6 /* confuoco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480641B161693FA0072A5A6 /* confuoco.mp3 */; };
+		848064FF161693FA0072A5A6 /* cresc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480641C161693FA0072A5A6 /* cresc.mp3 */; };
+		84806500161693FA0072A5A6 /* crescendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480641D161693FA0072A5A6 /* crescendo.mp3 */; };
+		84806501161693FA0072A5A6 /* dacapo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480641E161693FA0072A5A6 /* dacapo.mp3 */; };
+		84806502161693FA0072A5A6 /* dalsegno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480641F161693FA0072A5A6 /* dalsegno.mp3 */; };
+		84806503161693FA0072A5A6 /* dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806420161693FA0072A5A6 /* dance.mp3 */; };
+		84806504161693FA0072A5A6 /* dc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806421161693FA0072A5A6 /* dc.mp3 */; };
+		84806505161693FA0072A5A6 /* decresc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806422161693FA0072A5A6 /* decresc.mp3 */; };
+		84806506161693FA0072A5A6 /* decrescendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806423161693FA0072A5A6 /* decrescendo.mp3 */; };
+		84806507161693FA0072A5A6 /* dim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806424161693FA0072A5A6 /* dim.mp3 */; };
+		84806508161693FA0072A5A6 /* diminuendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806425161693FA0072A5A6 /* diminuendo.mp3 */; };
+		84806509161693FA0072A5A6 /* dolce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806426161693FA0072A5A6 /* dolce.mp3 */; };
+		8480650A161693FA0072A5A6 /* dolcissimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806427161693FA0072A5A6 /* dolcissimo.mp3 */; };
+		8480650B161693FA0072A5A6 /* dolente.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806428161693FA0072A5A6 /* dolente.mp3 */; };
+		8480650C161693FA0072A5A6 /* doppel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806429161693FA0072A5A6 /* doppel.mp3 */; };
+		8480650D161693FA0072A5A6 /* doppelt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480642A161693FA0072A5A6 /* doppelt.mp3 */; };
+		8480650E161693FA0072A5A6 /* doppio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480642B161693FA0072A5A6 /* doppio.mp3 */; };
+		8480650F161693FA0072A5A6 /* double.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480642C161693FA0072A5A6 /* double.mp3 */; };
+		84806510161693FA0072A5A6 /* ds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480642D161693FA0072A5A6 /* ds.mp3 */; };
+		84806511161693FA0072A5A6 /* duecorde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480642E161693FA0072A5A6 /* duecorde.mp3 */; };
+		84806512161693FA0072A5A6 /* elegante.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480642F161693FA0072A5A6 /* elegante.mp3 */; };
+		84806513161693FA0072A5A6 /* energico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806430161693FA0072A5A6 /* energico.mp3 */; };
+		84806514161693FA0072A5A6 /* etude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806431161693FA0072A5A6 /* etude.mp3 */; };
+		84806515161693FA0072A5A6 /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806432161693FA0072A5A6 /* f.mp3 */; };
+		84806516161693FA0072A5A6 /* fantasia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806433161693FA0072A5A6 /* fantasia.mp3 */; };
+		84806517161693FA0072A5A6 /* festivo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806434161693FA0072A5A6 /* festivo.mp3 */; };
+		84806518161693FA0072A5A6 /* ff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806435161693FA0072A5A6 /* ff.mp3 */; };
+		84806519161693FA0072A5A6 /* fff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806436161693FA0072A5A6 /* fff.mp3 */; };
+		8480651A161693FA0072A5A6 /* fiero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806437161693FA0072A5A6 /* fiero.mp3 */; };
+		8480651B161693FA0072A5A6 /* finale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806438161693FA0072A5A6 /* finale.mp3 */; };
+		8480651C161693FA0072A5A6 /* forte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806439161693FA0072A5A6 /* forte.mp3 */; };
+		8480651D161693FA0072A5A6 /* fortepiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480643A161693FA0072A5A6 /* fortepiano.mp3 */; };
+		8480651E161693FA0072A5A6 /* fortissimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480643B161693FA0072A5A6 /* fortissimo.mp3 */; };
+		8480651F161693FA0072A5A6 /* fortissississimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480643C161693FA0072A5A6 /* fortissississimo.mp3 */; };
+		84806520161693FA0072A5A6 /* forzando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480643D161693FA0072A5A6 /* forzando.mp3 */; };
+		84806521161693FA0072A5A6 /* fp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480643E161693FA0072A5A6 /* fp.mp3 */; };
+		84806522161693FA0072A5A6 /* fugue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480643F161693FA0072A5A6 /* fugue.mp3 */; };
+		84806523161693FA0072A5A6 /* fz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806440161693FA0072A5A6 /* fz.mp3 */; };
+		84806524161693FA0072A5A6 /* gavotte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806441161693FA0072A5A6 /* gavotte.mp3 */; };
+		84806525161693FA0072A5A6 /* gigue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806442161693FA0072A5A6 /* gigue.mp3 */; };
+		84806526161693FA0072A5A6 /* gliss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806443161693FA0072A5A6 /* gliss.mp3 */; };
+		84806527161693FA0072A5A6 /* glissando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806444161693FA0072A5A6 /* glissando.mp3 */; };
+		84806528161693FA0072A5A6 /* grave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806445161693FA0072A5A6 /* grave.mp3 */; };
+		84806529161693FA0072A5A6 /* grazioso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806446161693FA0072A5A6 /* grazioso.mp3 */; };
+		8480652A161693FA0072A5A6 /* guerriero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806447161693FA0072A5A6 /* guerriero.mp3 */; };
+		8480652B161693FA0072A5A6 /* habanera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806448161693FA0072A5A6 /* habanera.mp3 */; };
+		8480652C161693FA0072A5A6 /* impetuoso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806449161693FA0072A5A6 /* impetuoso.mp3 */; };
+		8480652D161693FA0072A5A6 /* interlude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480644A161693FA0072A5A6 /* interlude.mp3 */; };
+		8480652E161693FA0072A5A6 /* intermezzo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480644B161693FA0072A5A6 /* intermezzo.mp3 */; };
+		8480652F161693FA0072A5A6 /* largamente.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480644C161693FA0072A5A6 /* largamente.mp3 */; };
+		84806530161693FA0072A5A6 /* larghetto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480644D161693FA0072A5A6 /* larghetto.mp3 */; };
+		84806531161693FA0072A5A6 /* largo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480644E161693FA0072A5A6 /* largo.mp3 */; };
+		84806532161693FA0072A5A6 /* legato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480644F161693FA0072A5A6 /* legato.mp3 */; };
+		84806533161693FA0072A5A6 /* lento.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806450161693FA0072A5A6 /* lento.mp3 */; };
+		84806534161693FA0072A5A6 /* maestoso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806451161693FA0072A5A6 /* maestoso.mp3 */; };
+		84806535161693FA0072A5A6 /* mazurka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806452161693FA0072A5A6 /* mazurka.mp3 */; };
+		84806536161693FA0072A5A6 /* meno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806453161693FA0072A5A6 /* meno.mp3 */; };
+		84806537161693FA0072A5A6 /* menomosso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806454161693FA0072A5A6 /* menomosso.mp3 */; };
+		84806538161693FA0072A5A6 /* mesto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806455161693FA0072A5A6 /* mesto.mp3 */; };
+		84806539161693FA0072A5A6 /* mezzo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806456161693FA0072A5A6 /* mezzo.mp3 */; };
+		8480653A161693FA0072A5A6 /* mezzoforte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806457161693FA0072A5A6 /* mezzoforte.mp3 */; };
+		8480653B161693FA0072A5A6 /* mezzopiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806458161693FA0072A5A6 /* mezzopiano.mp3 */; };
+		8480653C161693FA0072A5A6 /* mf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806459161693FA0072A5A6 /* mf.mp3 */; };
+		8480653D161693FA0072A5A6 /* minore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480645A161693FA0072A5A6 /* minore.mp3 */; };
+		8480653E161693FA0072A5A6 /* moderato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480645B161693FA0072A5A6 /* moderato.mp3 */; };
+		8480653F161693FA0072A5A6 /* molto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480645C161693FA0072A5A6 /* molto.mp3 */; };
+		84806540161693FA0072A5A6 /* morendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480645D161693FA0072A5A6 /* morendo.mp3 */; };
+		84806541161693FA0072A5A6 /* mp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480645E161693FA0072A5A6 /* mp.mp3 */; };
+		84806542161693FA0072A5A6 /* overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480645F161693FA0072A5A6 /* overture.mp3 */; };
+		84806543161693FA0072A5A6 /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806460161693FA0072A5A6 /* p.mp3 */; };
+		84806544161693FA0072A5A6 /* parlando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806461161693FA0072A5A6 /* parlando.mp3 */; };
+		84806545161693FA0072A5A6 /* passacaglia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806462161693FA0072A5A6 /* passacaglia.mp3 */; };
+		84806546161693FA0072A5A6 /* passionato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806463161693FA0072A5A6 /* passionato.mp3 */; };
+		84806547161693FA0072A5A6 /* pastorale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806464161693FA0072A5A6 /* pastorale.mp3 */; };
+		84806548161693FA0072A5A6 /* perdendosi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806465161693FA0072A5A6 /* perdendosi.mp3 */; };
+		84806549161693FA0072A5A6 /* pesante.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806466161693FA0072A5A6 /* pesante.mp3 */; };
+		8480654A161693FA0072A5A6 /* pf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806467161693FA0072A5A6 /* pf.mp3 */; };
+		8480654B161693FA0072A5A6 /* pianissimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806468161693FA0072A5A6 /* pianissimo.mp3 */; };
+		8480654C161693FA0072A5A6 /* pianississimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806469161693FA0072A5A6 /* pianississimo.mp3 */; };
+		8480654D161693FA0072A5A6 /* piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480646A161693FA0072A5A6 /* piano.mp3 */; };
+		8480654E161693FA0072A5A6 /* pianoforte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480646B161693FA0072A5A6 /* pianoforte.mp3 */; };
+		8480654F161693FA0072A5A6 /* piu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480646C161693FA0072A5A6 /* piu.mp3 */; };
+		84806550161693FA0072A5A6 /* piumosso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480646D161693FA0072A5A6 /* piumosso.mp3 */; };
+		84806551161693FA0072A5A6 /* piumoto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480646E161693FA0072A5A6 /* piumoto.mp3 */; };
+		84806552161693FA0072A5A6 /* poco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480646F161693FA0072A5A6 /* poco.mp3 */; };
+		84806553161693FA0072A5A6 /* polka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806470161693FA0072A5A6 /* polka.mp3 */; };
+		84806554161693FA0072A5A6 /* polonaise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806471161693FA0072A5A6 /* polonaise.mp3 */; };
+		84806555161693FA0072A5A6 /* pomposo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806472161693FA0072A5A6 /* pomposo.mp3 */; };
+		84806556161693FA0072A5A6 /* pp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806473161693FA0072A5A6 /* pp.mp3 */; };
+		84806557161693FA0072A5A6 /* ppp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806474161693FA0072A5A6 /* ppp.mp3 */; };
+		84806558161693FA0072A5A6 /* prelude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806475161693FA0072A5A6 /* prelude.mp3 */; };
+		84806559161693FA0072A5A6 /* prestissimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806476161693FA0072A5A6 /* prestissimo.mp3 */; };
+		8480655A161693FA0072A5A6 /* presto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806477161693FA0072A5A6 /* presto.mp3 */; };
+		8480655B161693FA0072A5A6 /* quieto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806478161693FA0072A5A6 /* quieto.mp3 */; };
+		8480655C161693FA0072A5A6 /* rall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806479161693FA0072A5A6 /* rall.mp3 */; };
+		8480655D161693FA0072A5A6 /* rallentando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480647A161693FA0072A5A6 /* rallentando.mp3 */; };
+		8480655E161693FA0072A5A6 /* recitative.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480647B161693FA0072A5A6 /* recitative.mp3 */; };
+		8480655F161693FA0072A5A6 /* religioso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480647C161693FA0072A5A6 /* religioso.mp3 */; };
+		84806560161693FA0072A5A6 /* restez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480647D161693FA0072A5A6 /* restez.mp3 */; };
+		84806561161693FA0072A5A6 /* rhapsody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480647E161693FA0072A5A6 /* rhapsody.mp3 */; };
+		84806562161693FA0072A5A6 /* rit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480647F161693FA0072A5A6 /* rit.mp3 */; };
+		84806563161693FA0072A5A6 /* ritard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806480161693FA0072A5A6 /* ritard.mp3 */; };
+		84806564161693FA0072A5A6 /* ritardando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806481161693FA0072A5A6 /* ritardando.mp3 */; };
+		84806565161693FA0072A5A6 /* riten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806482161693FA0072A5A6 /* riten.mp3 */; };
+		84806566161693FA0072A5A6 /* ritenuto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806483161693FA0072A5A6 /* ritenuto.mp3 */; };
+		84806567161693FA0072A5A6 /* rumba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806484161693FA0072A5A6 /* rumba.mp3 */; };
+		84806568161693FA0072A5A6 /* rustico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806485161693FA0072A5A6 /* rustico.mp3 */; };
+		84806569161693FA0072A5A6 /* sarabande.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806486161693FA0072A5A6 /* sarabande.mp3 */; };
+		8480656A161693FA0072A5A6 /* scherzando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806487161693FA0072A5A6 /* scherzando.mp3 */; };
+		8480656B161693FA0072A5A6 /* scherzo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806488161693FA0072A5A6 /* scherzo.mp3 */; };
+		8480656C161693FA0072A5A6 /* semplice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806489161693FA0072A5A6 /* semplice.mp3 */; };
+		8480656D161693FA0072A5A6 /* sentimento.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480648A161693FA0072A5A6 /* sentimento.mp3 */; };
+		8480656E161693FA0072A5A6 /* sf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480648B161693FA0072A5A6 /* sf.mp3 */; };
+		8480656F161693FA0072A5A6 /* sforzando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480648C161693FA0072A5A6 /* sforzando.mp3 */; };
+		84806570161693FA0072A5A6 /* sforzandopiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480648D161693FA0072A5A6 /* sforzandopiano.mp3 */; };
+		84806571161693FA0072A5A6 /* sfp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480648E161693FA0072A5A6 /* sfp.mp3 */; };
+		84806572161693FA0072A5A6 /* sfz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480648F161693FA0072A5A6 /* sfz.mp3 */; };
+		84806573161693FA0072A5A6 /* smorzando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806490161693FA0072A5A6 /* smorzando.mp3 */; };
+		84806574161693FA0072A5A6 /* solo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806491161693FA0072A5A6 /* solo.mp3 */; };
+		84806575161693FA0072A5A6 /* sonata.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806492161693FA0072A5A6 /* sonata.mp3 */; };
+		84806576161693FA0072A5A6 /* sonatina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806493161693FA0072A5A6 /* sonatina.mp3 */; };
+		84806577161693FA0072A5A6 /* sottovoce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806494161693FA0072A5A6 /* sottovoce.mp3 */; };
+		84806578161693FA0072A5A6 /* spianato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806495161693FA0072A5A6 /* spianato.mp3 */; };
+		84806579161693FA0072A5A6 /* staccatissimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806496161693FA0072A5A6 /* staccatissimo.mp3 */; };
+		8480657A161693FA0072A5A6 /* staccato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806497161693FA0072A5A6 /* staccato.mp3 */; };
+		8480657B161693FA0072A5A6 /* strepitoso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806498161693FA0072A5A6 /* strepitoso.mp3 */; };
+		8480657C161693FA0072A5A6 /* string.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84806499161693FA0072A5A6 /* string.mp3 */; };
+		8480657D161693FA0072A5A6 /* stringendo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480649A161693FA0072A5A6 /* stringendo.mp3 */; };
+		8480657E161693FA0072A5A6 /* subito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480649B161693FA0072A5A6 /* subito.mp3 */; };
+		8480657F161693FA0072A5A6 /* symphony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480649C161693FA0072A5A6 /* symphony.mp3 */; };
+		84806580161693FA0072A5A6 /* tango.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480649D161693FA0072A5A6 /* tango.mp3 */; };
+		84806581161693FA0072A5A6 /* tarantella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480649E161693FA0072A5A6 /* tarantella.mp3 */; };
+		84806582161693FA0072A5A6 /* tempoprimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8480649F161693FA0072A5A6 /* tempoprimo.mp3 */; };
+		84806583161693FA0072A5A6 /* tenuto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A0161693FA0072A5A6 /* tenuto.mp3 */; };
+		84806584161693FA0072A5A6 /* toccata.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A1161693FA0072A5A6 /* toccata.mp3 */; };
+		84806585161693FA0072A5A6 /* tranquillo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A2161693FA0072A5A6 /* tranquillo.mp3 */; };
+		84806586161693FA0072A5A6 /* tuttaforza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A3161693FA0072A5A6 /* tuttaforza.mp3 */; };
+		84806587161693FA0072A5A6 /* tutti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A4161693FA0072A5A6 /* tutti.mp3 */; };
+		84806588161693FA0072A5A6 /* unacorda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A5161693FA0072A5A6 /* unacorda.mp3 */; };
+		84806589161693FA0072A5A6 /* vivace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A6161693FA0072A5A6 /* vivace.mp3 */; };
+		8480658A161693FA0072A5A6 /* vivo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A7161693FA0072A5A6 /* vivo.mp3 */; };
+		8480658B161693FA0072A5A6 /* waltz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848064A8161693FA0072A5A6 /* waltz.mp3 */; };
+		8480658C161693FA0072A5A6 /* MyDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848064AB161693FA0072A5A6 /* MyDetailView.m */; };
+		8480658D161693FA0072A5A6 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848064AD161693FA0072A5A6 /* MyLabel.m */; };
+		8480658E161693FA0072A5A6 /* MySubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848064B0161693FA0072A5A6 /* MySubCell.m */; };
+		8480658F161693FA0072A5A6 /* MySubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848064B1161693FA0072A5A6 /* MySubCell.xib */; };
+		84806590161693FA0072A5A6 /* SpeakImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848064B3161693FA0072A5A6 /* SpeakImageView.m */; };
+		848065961616974B0072A5A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848065951616974B0072A5A6 /* AVFoundation.framework */; };
+		84806598161697710072A5A6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84806597161697710072A5A6 /* libsqlite3.0.dylib */; };
+		8480659A161698460072A5A6 /* icon_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84806599161698460072A5A6 /* icon_copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8429DC361616F10100F7DC9D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		8429DC381616F10B00F7DC9D /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		8429DC3A1616F18E00F7DC9D /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		8429DC3C1616F19F00F7DC9D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		84806398161693860072A5A6 /* MusicalTerms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalTerms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8480639C161693860072A5A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8480639E161693860072A5A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,10 +261,248 @@
 		848063AC161693860072A5A6 /* MusicalTerms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicalTerms-Prefix.pch"; sourceTree = "<group>"; };
 		848063AD161693860072A5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		848063AE161693860072A5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		848063B0161693860072A5A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		848063B2161693860072A5A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		848063B4161693860072A5A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		848063B7161693860072A5A6 /* MusicalTerms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicalTerms.xcdatamodel; sourceTree = "<group>"; };
+		848063C0161693FA0072A5A6 /* SubstitutableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstitutableDetailViewController.h; sourceTree = "<group>"; };
+		848063C1161693FA0072A5A6 /* SwitchViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewDelegate.h; sourceTree = "<group>"; };
+		848063C3161693FA0072A5A6 /* ClassfyIpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassfyIpadViewController.h; sourceTree = "<group>"; };
+		848063C4161693FA0072A5A6 /* ClassfyIpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassfyIpadViewController.m; sourceTree = "<group>"; };
+		848063C5161693FA0072A5A6 /* ClassfyIpadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassfyIpadViewController.xib; sourceTree = "<group>"; };
+		848063C6161693FA0072A5A6 /* DetailNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNavigationViewController.h; sourceTree = "<group>"; };
+		848063C7161693FA0072A5A6 /* DetailNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNavigationViewController.m; sourceTree = "<group>"; };
+		848063C8161693FA0072A5A6 /* DetailNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNavigationViewController.xib; sourceTree = "<group>"; };
+		848063C9161693FA0072A5A6 /* HistoryIpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryIpadViewController.h; sourceTree = "<group>"; };
+		848063CA161693FA0072A5A6 /* HistoryIpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryIpadViewController.m; sourceTree = "<group>"; };
+		848063CB161693FA0072A5A6 /* HistoryIpadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryIpadViewController.xib; sourceTree = "<group>"; };
+		848063CC161693FA0072A5A6 /* IndexIpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexIpadViewController.h; sourceTree = "<group>"; };
+		848063CD161693FA0072A5A6 /* IndexIpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexIpadViewController.m; sourceTree = "<group>"; };
+		848063CE161693FA0072A5A6 /* IndexIpadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexIpadViewController.xib; sourceTree = "<group>"; };
+		848063CF161693FA0072A5A6 /* RootIpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootIpadViewController.h; sourceTree = "<group>"; };
+		848063D0161693FA0072A5A6 /* RootIpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootIpadViewController.m; sourceTree = "<group>"; };
+		848063D1161693FA0072A5A6 /* SearchIpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchIpadViewController.h; sourceTree = "<group>"; };
+		848063D2161693FA0072A5A6 /* SearchIpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchIpadViewController.m; sourceTree = "<group>"; };
+		848063D3161693FA0072A5A6 /* SearchIpadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchIpadViewController.xib; sourceTree = "<group>"; };
+		848063D4161693FA0072A5A6 /* SpeedIpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedIpadViewController.h; sourceTree = "<group>"; };
+		848063D5161693FA0072A5A6 /* SpeedIpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedIpadViewController.m; sourceTree = "<group>"; };
+		848063D6161693FA0072A5A6 /* SpeedIpadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeedIpadViewController.xib; sourceTree = "<group>"; };
+		848063D8161693FA0072A5A6 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		848063D9161693FA0072A5A6 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		848063DA161693FA0072A5A6 /* music_db.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = music_db.db; sourceTree = "<group>"; };
+		848063DC161693FA0072A5A6 /* classfiyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classfiyIcon.png; sourceTree = "<group>"; };
+		848063DD161693FA0072A5A6 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		848063DE161693FA0072A5A6 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		848063DF161693FA0072A5A6 /* company_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = company_logo.png; sourceTree = "<group>"; };
+		848063E0161693FA0072A5A6 /* compassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassIcon.png; sourceTree = "<group>"; };
+		848063E1161693FA0072A5A6 /* compassIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassIcon@2x.png"; sourceTree = "<group>"; };
+		848063E2161693FA0072A5A6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		848063E3161693FA0072A5A6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		848063E4161693FA0072A5A6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		848063E5161693FA0072A5A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		848063E6161693FA0072A5A6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		848063E7161693FA0072A5A6 /* icon_annoucement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_annoucement.png; sourceTree = "<group>"; };
+		848063E8161693FA0072A5A6 /* icon_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_glass.png; sourceTree = "<group>"; };
+		848063E9161693FA0072A5A6 /* icon_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_star.png; sourceTree = "<group>"; };
+		848063EA161693FA0072A5A6 /* icon_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_time.png; sourceTree = "<group>"; };
+		848063EB161693FA0072A5A6 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		848063EC161693FA0072A5A6 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		848063ED161693FA0072A5A6 /* note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note@2x.png"; sourceTree = "<group>"; };
+		848063EE161693FA0072A5A6 /* searchTabBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchTabBarIcon.png; sourceTree = "<group>"; };
+		848063EF161693FA0072A5A6 /* searchTabBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchTabBarIcon@2x.png"; sourceTree = "<group>"; };
+		848063F0161693FA0072A5A6 /* starIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starIcon.png; sourceTree = "<group>"; };
+		848063F1161693FA0072A5A6 /* starIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starIcon@2x.png"; sourceTree = "<group>"; };
+		848063F3161693FA0072A5A6 /* DictInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictInfo.h; sourceTree = "<group>"; };
+		848063F4161693FA0072A5A6 /* DictInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictInfo.m; sourceTree = "<group>"; };
+		848063F5161693FA0072A5A6 /* MusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfo.h; sourceTree = "<group>"; };
+		848063F6161693FA0072A5A6 /* MusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfo.m; sourceTree = "<group>"; };
+		848063F8161693FA0072A5A6 /* abattuta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = abattuta.mp3; sourceTree = "<group>"; };
+		848063F9161693FA0072A5A6 /* acappella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acappella.mp3; sourceTree = "<group>"; };
+		848063FA161693FA0072A5A6 /* acapriccio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acapriccio.mp3; sourceTree = "<group>"; };
+		848063FB161693FA0072A5A6 /* accel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = accel.mp3; sourceTree = "<group>"; };
+		848063FC161693FA0072A5A6 /* accelerando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = accelerando.mp3; sourceTree = "<group>"; };
+		848063FD161693FA0072A5A6 /* accent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = accent.mp3; sourceTree = "<group>"; };
+		848063FE161693FA0072A5A6 /* adagio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adagio.mp3; sourceTree = "<group>"; };
+		848063FF161693FA0072A5A6 /* adeux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adeux.mp3; sourceTree = "<group>"; };
+		84806400161693FA0072A5A6 /* adue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adue.mp3; sourceTree = "<group>"; };
+		84806401161693FA0072A5A6 /* allargando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allargando.mp3; sourceTree = "<group>"; };
+		84806402161693FA0072A5A6 /* allegretto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allegretto.mp3; sourceTree = "<group>"; };
+		84806403161693FA0072A5A6 /* allegrissimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allegrissimo.mp3; sourceTree = "<group>"; };
+		84806404161693FA0072A5A6 /* allegro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allegro.mp3; sourceTree = "<group>"; };
+		84806405161693FA0072A5A6 /* allemande.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allemande.mp3; sourceTree = "<group>"; };
+		84806406161693FA0072A5A6 /* allottava.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allottava.mp3; sourceTree = "<group>"; };
+		84806407161693FA0072A5A6 /* amoroso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amoroso.mp3; sourceTree = "<group>"; };
+		84806408161693FA0072A5A6 /* andante.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = andante.mp3; sourceTree = "<group>"; };
+		84806409161693FA0072A5A6 /* andantino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = andantino.mp3; sourceTree = "<group>"; };
+		8480640A161693FA0072A5A6 /* apiacere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apiacere.mp3; sourceTree = "<group>"; };
+		8480640B161693FA0072A5A6 /* appassionato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appassionato.mp3; sourceTree = "<group>"; };
+		8480640C161693FA0072A5A6 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		8480640D161693FA0072A5A6 /* assai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assai.mp3; sourceTree = "<group>"; };
+		8480640E161693FA0072A5A6 /* atempo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atempo.mp3; sourceTree = "<group>"; };
+		8480640F161693FA0072A5A6 /* ballade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ballade.mp3; sourceTree = "<group>"; };
+		84806410161693FA0072A5A6 /* balloon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = balloon.wav; sourceTree = "<group>"; };
+		84806411161693FA0072A5A6 /* bassa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bassa.mp3; sourceTree = "<group>"; };
+		84806412161693FA0072A5A6 /* bourree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bourree.mp3; sourceTree = "<group>"; };
+		84806413161693FA0072A5A6 /* ca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ca.mp3; sourceTree = "<group>"; };
+		84806414161693FA0072A5A6 /* calando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = calando.mp3; sourceTree = "<group>"; };
+		84806415161693FA0072A5A6 /* cantata.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cantata.mp3; sourceTree = "<group>"; };
+		84806416161693FA0072A5A6 /* capriccio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = capriccio.mp3; sourceTree = "<group>"; };
+		84806417161693FA0072A5A6 /* chaconne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chaconne.mp3; sourceTree = "<group>"; };
+		84806418161693FA0072A5A6 /* circa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = circa.mp3; sourceTree = "<group>"; };
+		84806419161693FA0072A5A6 /* col.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = col.mp3; sourceTree = "<group>"; };
+		8480641A161693FA0072A5A6 /* conbrio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = conbrio.mp3; sourceTree = "<group>"; };
+		8480641B161693FA0072A5A6 /* confuoco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = confuoco.mp3; sourceTree = "<group>"; };
+		8480641C161693FA0072A5A6 /* cresc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cresc.mp3; sourceTree = "<group>"; };
+		8480641D161693FA0072A5A6 /* crescendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crescendo.mp3; sourceTree = "<group>"; };
+		8480641E161693FA0072A5A6 /* dacapo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dacapo.mp3; sourceTree = "<group>"; };
+		8480641F161693FA0072A5A6 /* dalsegno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dalsegno.mp3; sourceTree = "<group>"; };
+		84806420161693FA0072A5A6 /* dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dance.mp3; sourceTree = "<group>"; };
+		84806421161693FA0072A5A6 /* dc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dc.mp3; sourceTree = "<group>"; };
+		84806422161693FA0072A5A6 /* decresc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = decresc.mp3; sourceTree = "<group>"; };
+		84806423161693FA0072A5A6 /* decrescendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = decrescendo.mp3; sourceTree = "<group>"; };
+		84806424161693FA0072A5A6 /* dim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dim.mp3; sourceTree = "<group>"; };
+		84806425161693FA0072A5A6 /* diminuendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diminuendo.mp3; sourceTree = "<group>"; };
+		84806426161693FA0072A5A6 /* dolce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dolce.mp3; sourceTree = "<group>"; };
+		84806427161693FA0072A5A6 /* dolcissimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dolcissimo.mp3; sourceTree = "<group>"; };
+		84806428161693FA0072A5A6 /* dolente.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dolente.mp3; sourceTree = "<group>"; };
+		84806429161693FA0072A5A6 /* doppel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doppel.mp3; sourceTree = "<group>"; };
+		8480642A161693FA0072A5A6 /* doppelt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doppelt.mp3; sourceTree = "<group>"; };
+		8480642B161693FA0072A5A6 /* doppio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doppio.mp3; sourceTree = "<group>"; };
+		8480642C161693FA0072A5A6 /* double.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = double.mp3; sourceTree = "<group>"; };
+		8480642D161693FA0072A5A6 /* ds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ds.mp3; sourceTree = "<group>"; };
+		8480642E161693FA0072A5A6 /* duecorde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duecorde.mp3; sourceTree = "<group>"; };
+		8480642F161693FA0072A5A6 /* elegante.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elegante.mp3; sourceTree = "<group>"; };
+		84806430161693FA0072A5A6 /* energico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = energico.mp3; sourceTree = "<group>"; };
+		84806431161693FA0072A5A6 /* etude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = etude.mp3; sourceTree = "<group>"; };
+		84806432161693FA0072A5A6 /* f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f.mp3; sourceTree = "<group>"; };
+		84806433161693FA0072A5A6 /* fantasia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fantasia.mp3; sourceTree = "<group>"; };
+		84806434161693FA0072A5A6 /* festivo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = festivo.mp3; sourceTree = "<group>"; };
+		84806435161693FA0072A5A6 /* ff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ff.mp3; sourceTree = "<group>"; };
+		84806436161693FA0072A5A6 /* fff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fff.mp3; sourceTree = "<group>"; };
+		84806437161693FA0072A5A6 /* fiero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fiero.mp3; sourceTree = "<group>"; };
+		84806438161693FA0072A5A6 /* finale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = finale.mp3; sourceTree = "<group>"; };
+		84806439161693FA0072A5A6 /* forte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forte.mp3; sourceTree = "<group>"; };
+		8480643A161693FA0072A5A6 /* fortepiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fortepiano.mp3; sourceTree = "<group>"; };
+		8480643B161693FA0072A5A6 /* fortissimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fortissimo.mp3; sourceTree = "<group>"; };
+		8480643C161693FA0072A5A6 /* fortissississimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fortissississimo.mp3; sourceTree = "<group>"; };
+		8480643D161693FA0072A5A6 /* forzando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forzando.mp3; sourceTree = "<group>"; };
+		8480643E161693FA0072A5A6 /* fp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fp.mp3; sourceTree = "<group>"; };
+		8480643F161693FA0072A5A6 /* fugue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fugue.mp3; sourceTree = "<group>"; };
+		84806440161693FA0072A5A6 /* fz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fz.mp3; sourceTree = "<group>"; };
+		84806441161693FA0072A5A6 /* gavotte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gavotte.mp3; sourceTree = "<group>"; };
+		84806442161693FA0072A5A6 /* gigue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gigue.mp3; sourceTree = "<group>"; };
+		84806443161693FA0072A5A6 /* gliss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gliss.mp3; sourceTree = "<group>"; };
+		84806444161693FA0072A5A6 /* glissando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = glissando.mp3; sourceTree = "<group>"; };
+		84806445161693FA0072A5A6 /* grave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grave.mp3; sourceTree = "<group>"; };
+		84806446161693FA0072A5A6 /* grazioso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grazioso.mp3; sourceTree = "<group>"; };
+		84806447161693FA0072A5A6 /* guerriero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guerriero.mp3; sourceTree = "<group>"; };
+		84806448161693FA0072A5A6 /* habanera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = habanera.mp3; sourceTree = "<group>"; };
+		84806449161693FA0072A5A6 /* impetuoso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = impetuoso.mp3; sourceTree = "<group>"; };
+		8480644A161693FA0072A5A6 /* interlude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = interlude.mp3; sourceTree = "<group>"; };
+		8480644B161693FA0072A5A6 /* intermezzo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intermezzo.mp3; sourceTree = "<group>"; };
+		8480644C161693FA0072A5A6 /* largamente.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = largamente.mp3; sourceTree = "<group>"; };
+		8480644D161693FA0072A5A6 /* larghetto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = larghetto.mp3; sourceTree = "<group>"; };
+		8480644E161693FA0072A5A6 /* largo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = largo.mp3; sourceTree = "<group>"; };
+		8480644F161693FA0072A5A6 /* legato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = legato.mp3; sourceTree = "<group>"; };
+		84806450161693FA0072A5A6 /* lento.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lento.mp3; sourceTree = "<group>"; };
+		84806451161693FA0072A5A6 /* maestoso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maestoso.mp3; sourceTree = "<group>"; };
+		84806452161693FA0072A5A6 /* mazurka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mazurka.mp3; sourceTree = "<group>"; };
+		84806453161693FA0072A5A6 /* meno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meno.mp3; sourceTree = "<group>"; };
+		84806454161693FA0072A5A6 /* menomosso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menomosso.mp3; sourceTree = "<group>"; };
+		84806455161693FA0072A5A6 /* mesto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mesto.mp3; sourceTree = "<group>"; };
+		84806456161693FA0072A5A6 /* mezzo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mezzo.mp3; sourceTree = "<group>"; };
+		84806457161693FA0072A5A6 /* mezzoforte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mezzoforte.mp3; sourceTree = "<group>"; };
+		84806458161693FA0072A5A6 /* mezzopiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mezzopiano.mp3; sourceTree = "<group>"; };
+		84806459161693FA0072A5A6 /* mf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mf.mp3; sourceTree = "<group>"; };
+		8480645A161693FA0072A5A6 /* minore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = minore.mp3; sourceTree = "<group>"; };
+		8480645B161693FA0072A5A6 /* moderato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moderato.mp3; sourceTree = "<group>"; };
+		8480645C161693FA0072A5A6 /* molto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = molto.mp3; sourceTree = "<group>"; };
+		8480645D161693FA0072A5A6 /* morendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morendo.mp3; sourceTree = "<group>"; };
+		8480645E161693FA0072A5A6 /* mp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mp.mp3; sourceTree = "<group>"; };
+		8480645F161693FA0072A5A6 /* overture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overture.mp3; sourceTree = "<group>"; };
+		84806460161693FA0072A5A6 /* p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p.mp3; sourceTree = "<group>"; };
+		84806461161693FA0072A5A6 /* parlando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = parlando.mp3; sourceTree = "<group>"; };
+		84806462161693FA0072A5A6 /* passacaglia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = passacaglia.mp3; sourceTree = "<group>"; };
+		84806463161693FA0072A5A6 /* passionato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = passionato.mp3; sourceTree = "<group>"; };
+		84806464161693FA0072A5A6 /* pastorale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pastorale.mp3; sourceTree = "<group>"; };
+		84806465161693FA0072A5A6 /* perdendosi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perdendosi.mp3; sourceTree = "<group>"; };
+		84806466161693FA0072A5A6 /* pesante.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pesante.mp3; sourceTree = "<group>"; };
+		84806467161693FA0072A5A6 /* pf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pf.mp3; sourceTree = "<group>"; };
+		84806468161693FA0072A5A6 /* pianissimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianissimo.mp3; sourceTree = "<group>"; };
+		84806469161693FA0072A5A6 /* pianississimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianississimo.mp3; sourceTree = "<group>"; };
+		8480646A161693FA0072A5A6 /* piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano.mp3; sourceTree = "<group>"; };
+		8480646B161693FA0072A5A6 /* pianoforte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoforte.mp3; sourceTree = "<group>"; };
+		8480646C161693FA0072A5A6 /* piu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piu.mp3; sourceTree = "<group>"; };
+		8480646D161693FA0072A5A6 /* piumosso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piumosso.mp3; sourceTree = "<group>"; };
+		8480646E161693FA0072A5A6 /* piumoto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piumoto.mp3; sourceTree = "<group>"; };
+		8480646F161693FA0072A5A6 /* poco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poco.mp3; sourceTree = "<group>"; };
+		84806470161693FA0072A5A6 /* polka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = polka.mp3; sourceTree = "<group>"; };
+		84806471161693FA0072A5A6 /* polonaise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = polonaise.mp3; sourceTree = "<group>"; };
+		84806472161693FA0072A5A6 /* pomposo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pomposo.mp3; sourceTree = "<group>"; };
+		84806473161693FA0072A5A6 /* pp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pp.mp3; sourceTree = "<group>"; };
+		84806474161693FA0072A5A6 /* ppp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ppp.mp3; sourceTree = "<group>"; };
+		84806475161693FA0072A5A6 /* prelude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = prelude.mp3; sourceTree = "<group>"; };
+		84806476161693FA0072A5A6 /* prestissimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = prestissimo.mp3; sourceTree = "<group>"; };
+		84806477161693FA0072A5A6 /* presto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = presto.mp3; sourceTree = "<group>"; };
+		84806478161693FA0072A5A6 /* quieto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quieto.mp3; sourceTree = "<group>"; };
+		84806479161693FA0072A5A6 /* rall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rall.mp3; sourceTree = "<group>"; };
+		8480647A161693FA0072A5A6 /* rallentando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rallentando.mp3; sourceTree = "<group>"; };
+		8480647B161693FA0072A5A6 /* recitative.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = recitative.mp3; sourceTree = "<group>"; };
+		8480647C161693FA0072A5A6 /* religioso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = religioso.mp3; sourceTree = "<group>"; };
+		8480647D161693FA0072A5A6 /* restez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = restez.mp3; sourceTree = "<group>"; };
+		8480647E161693FA0072A5A6 /* rhapsody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rhapsody.mp3; sourceTree = "<group>"; };
+		8480647F161693FA0072A5A6 /* rit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rit.mp3; sourceTree = "<group>"; };
+		84806480161693FA0072A5A6 /* ritard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ritard.mp3; sourceTree = "<group>"; };
+		84806481161693FA0072A5A6 /* ritardando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ritardando.mp3; sourceTree = "<group>"; };
+		84806482161693FA0072A5A6 /* riten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riten.mp3; sourceTree = "<group>"; };
+		84806483161693FA0072A5A6 /* ritenuto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ritenuto.mp3; sourceTree = "<group>"; };
+		84806484161693FA0072A5A6 /* rumba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rumba.mp3; sourceTree = "<group>"; };
+		84806485161693FA0072A5A6 /* rustico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rustico.mp3; sourceTree = "<group>"; };
+		84806486161693FA0072A5A6 /* sarabande.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sarabande.mp3; sourceTree = "<group>"; };
+		84806487161693FA0072A5A6 /* scherzando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scherzando.mp3; sourceTree = "<group>"; };
+		84806488161693FA0072A5A6 /* scherzo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scherzo.mp3; sourceTree = "<group>"; };
+		84806489161693FA0072A5A6 /* semplice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = semplice.mp3; sourceTree = "<group>"; };
+		8480648A161693FA0072A5A6 /* sentimento.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sentimento.mp3; sourceTree = "<group>"; };
+		8480648B161693FA0072A5A6 /* sf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sf.mp3; sourceTree = "<group>"; };
+		8480648C161693FA0072A5A6 /* sforzando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sforzando.mp3; sourceTree = "<group>"; };
+		8480648D161693FA0072A5A6 /* sforzandopiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sforzandopiano.mp3; sourceTree = "<group>"; };
+		8480648E161693FA0072A5A6 /* sfp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfp.mp3; sourceTree = "<group>"; };
+		8480648F161693FA0072A5A6 /* sfz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfz.mp3; sourceTree = "<group>"; };
+		84806490161693FA0072A5A6 /* smorzando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smorzando.mp3; sourceTree = "<group>"; };
+		84806491161693FA0072A5A6 /* solo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = solo.mp3; sourceTree = "<group>"; };
+		84806492161693FA0072A5A6 /* sonata.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonata.mp3; sourceTree = "<group>"; };
+		84806493161693FA0072A5A6 /* sonatina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonatina.mp3; sourceTree = "<group>"; };
+		84806494161693FA0072A5A6 /* sottovoce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sottovoce.mp3; sourceTree = "<group>"; };
+		84806495161693FA0072A5A6 /* spianato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spianato.mp3; sourceTree = "<group>"; };
+		84806496161693FA0072A5A6 /* staccatissimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = staccatissimo.mp3; sourceTree = "<group>"; };
+		84806497161693FA0072A5A6 /* staccato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = staccato.mp3; sourceTree = "<group>"; };
+		84806498161693FA0072A5A6 /* strepitoso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strepitoso.mp3; sourceTree = "<group>"; };
+		84806499161693FA0072A5A6 /* string.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = string.mp3; sourceTree = "<group>"; };
+		8480649A161693FA0072A5A6 /* stringendo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stringendo.mp3; sourceTree = "<group>"; };
+		8480649B161693FA0072A5A6 /* subito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = subito.mp3; sourceTree = "<group>"; };
+		8480649C161693FA0072A5A6 /* symphony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = symphony.mp3; sourceTree = "<group>"; };
+		8480649D161693FA0072A5A6 /* tango.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tango.mp3; sourceTree = "<group>"; };
+		8480649E161693FA0072A5A6 /* tarantella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tarantella.mp3; sourceTree = "<group>"; };
+		8480649F161693FA0072A5A6 /* tempoprimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tempoprimo.mp3; sourceTree = "<group>"; };
+		848064A0161693FA0072A5A6 /* tenuto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tenuto.mp3; sourceTree = "<group>"; };
+		848064A1161693FA0072A5A6 /* toccata.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toccata.mp3; sourceTree = "<group>"; };
+		848064A2161693FA0072A5A6 /* tranquillo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tranquillo.mp3; sourceTree = "<group>"; };
+		848064A3161693FA0072A5A6 /* tuttaforza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tuttaforza.mp3; sourceTree = "<group>"; };
+		848064A4161693FA0072A5A6 /* tutti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tutti.mp3; sourceTree = "<group>"; };
+		848064A5161693FA0072A5A6 /* unacorda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unacorda.mp3; sourceTree = "<group>"; };
+		848064A6161693FA0072A5A6 /* vivace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivace.mp3; sourceTree = "<group>"; };
+		848064A7161693FA0072A5A6 /* vivo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivo.mp3; sourceTree = "<group>"; };
+		848064A8161693FA0072A5A6 /* waltz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waltz.mp3; sourceTree = "<group>"; };
+		848064AA161693FA0072A5A6 /* MyDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailView.h; sourceTree = "<group>"; };
+		848064AB161693FA0072A5A6 /* MyDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailView.m; sourceTree = "<group>"; };
+		848064AC161693FA0072A5A6 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		848064AD161693FA0072A5A6 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		848064AE161693FA0072A5A6 /* MyLabelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabelDelegate.h; sourceTree = "<group>"; };
+		848064AF161693FA0072A5A6 /* MySubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySubCell.h; sourceTree = "<group>"; };
+		848064B0161693FA0072A5A6 /* MySubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySubCell.m; sourceTree = "<group>"; };
+		848064B1161693FA0072A5A6 /* MySubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySubCell.xib; sourceTree = "<group>"; };
+		848064B2161693FA0072A5A6 /* SpeakImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakImageView.h; sourceTree = "<group>"; };
+		848064B3161693FA0072A5A6 /* SpeakImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakImageView.m; sourceTree = "<group>"; };
+		848065951616974B0072A5A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84806597161697710072A5A6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		84806599161698460072A5A6 /* icon_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_copy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +510,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84806598161697710072A5A6 /* libsqlite3.0.dylib in Frameworks */,
+				848065961616974B0072A5A6 /* AVFoundation.framework in Frameworks */,
 				8480639D161693860072A5A6 /* UIKit.framework in Frameworks */,
 				8480639F161693860072A5A6 /* Foundation.framework in Frameworks */,
 				848063A1161693860072A5A6 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +525,10 @@
 		8480638D161693860072A5A6 = {
 			isa = PBXGroup;
 			children = (
+				8429DC3C1616F19F00F7DC9D /* Default-Portrait@2x~ipad.png */,
+				8429DC3A1616F18E00F7DC9D /* Default-Portrait~ipad.png */,
+				8429DC381616F10B00F7DC9D /* Default-Landscape@2x~ipad.png */,
+				8429DC361616F10100F7DC9D /* Default-Landscape~ipad.png */,
 				848063A4161693860072A5A6 /* MusicalTerms */,
 				8480639B161693860072A5A6 /* Frameworks */,
 				84806399161693860072A5A6 /* Products */,
@@ -73,6 +546,8 @@
 		8480639B161693860072A5A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84806597161697710072A5A6 /* libsqlite3.0.dylib */,
+				848065951616974B0072A5A6 /* AVFoundation.framework */,
 				8480639C161693860072A5A6 /* UIKit.framework */,
 				8480639E161693860072A5A6 /* Foundation.framework */,
 				848063A0161693860072A5A6 /* CoreGraphics.framework */,
@@ -84,6 +559,7 @@
 		848063A4161693860072A5A6 /* MusicalTerms */ = {
 			isa = PBXGroup;
 			children = (
+				848063BE161693FA0072A5A6 /* Source */,
 				848063AD161693860072A5A6 /* AppDelegate.h */,
 				848063AE161693860072A5A6 /* AppDelegate.m */,
 				848063B6161693860072A5A6 /* MusicalTerms.xcdatamodeld */,
@@ -99,11 +575,310 @@
 				848063A7161693860072A5A6 /* InfoPlist.strings */,
 				848063AA161693860072A5A6 /* main.m */,
 				848063AC161693860072A5A6 /* MusicalTerms-Prefix.pch */,
-				848063B0161693860072A5A6 /* Default.png */,
-				848063B2161693860072A5A6 /* Default@2x.png */,
-				848063B4161693860072A5A6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848063BE161693FA0072A5A6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				848063BF161693FA0072A5A6 /* Common */,
+				848063C2161693FA0072A5A6 /* Controller */,
+				848063D7161693FA0072A5A6 /* DB */,
+				848063DB161693FA0072A5A6 /* images */,
+				848063F2161693FA0072A5A6 /* Model */,
+				848063F7161693FA0072A5A6 /* Mp3 */,
+				848064A9161693FA0072A5A6 /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		848063BF161693FA0072A5A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				848063C0161693FA0072A5A6 /* SubstitutableDetailViewController.h */,
+				848063C1161693FA0072A5A6 /* SwitchViewDelegate.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		848063C2161693FA0072A5A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				848063C3161693FA0072A5A6 /* ClassfyIpadViewController.h */,
+				848063C4161693FA0072A5A6 /* ClassfyIpadViewController.m */,
+				848063C5161693FA0072A5A6 /* ClassfyIpadViewController.xib */,
+				848063C6161693FA0072A5A6 /* DetailNavigationViewController.h */,
+				848063C7161693FA0072A5A6 /* DetailNavigationViewController.m */,
+				848063C8161693FA0072A5A6 /* DetailNavigationViewController.xib */,
+				848063C9161693FA0072A5A6 /* HistoryIpadViewController.h */,
+				848063CA161693FA0072A5A6 /* HistoryIpadViewController.m */,
+				848063CB161693FA0072A5A6 /* HistoryIpadViewController.xib */,
+				848063CC161693FA0072A5A6 /* IndexIpadViewController.h */,
+				848063CD161693FA0072A5A6 /* IndexIpadViewController.m */,
+				848063CE161693FA0072A5A6 /* IndexIpadViewController.xib */,
+				848063CF161693FA0072A5A6 /* RootIpadViewController.h */,
+				848063D0161693FA0072A5A6 /* RootIpadViewController.m */,
+				848063D1161693FA0072A5A6 /* SearchIpadViewController.h */,
+				848063D2161693FA0072A5A6 /* SearchIpadViewController.m */,
+				848063D3161693FA0072A5A6 /* SearchIpadViewController.xib */,
+				848063D4161693FA0072A5A6 /* SpeedIpadViewController.h */,
+				848063D5161693FA0072A5A6 /* SpeedIpadViewController.m */,
+				848063D6161693FA0072A5A6 /* SpeedIpadViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		848063D7161693FA0072A5A6 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				848063D8161693FA0072A5A6 /* DataBase.h */,
+				848063D9161693FA0072A5A6 /* DataBase.m */,
+				848063DA161693FA0072A5A6 /* music_db.db */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		848063DB161693FA0072A5A6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84806599161698460072A5A6 /* icon_copy.png */,
+				848063DC161693FA0072A5A6 /* classfiyIcon.png */,
+				848063DD161693FA0072A5A6 /* clock.png */,
+				848063DE161693FA0072A5A6 /* clock@2x.png */,
+				848063DF161693FA0072A5A6 /* company_logo.png */,
+				848063E0161693FA0072A5A6 /* compassIcon.png */,
+				848063E1161693FA0072A5A6 /* compassIcon@2x.png */,
+				848063E2161693FA0072A5A6 /* Icon-Small-50.png */,
+				848063E3161693FA0072A5A6 /* Icon-Small.png */,
+				848063E4161693FA0072A5A6 /* Icon-Small@2x.png */,
+				848063E5161693FA0072A5A6 /* Icon.png */,
+				848063E6161693FA0072A5A6 /* Icon@2x.png */,
+				848063E7161693FA0072A5A6 /* icon_annoucement.png */,
+				848063E8161693FA0072A5A6 /* icon_glass.png */,
+				848063E9161693FA0072A5A6 /* icon_star.png */,
+				848063EA161693FA0072A5A6 /* icon_time.png */,
+				848063EB161693FA0072A5A6 /* music.png */,
+				848063EC161693FA0072A5A6 /* note.png */,
+				848063ED161693FA0072A5A6 /* note@2x.png */,
+				848063EE161693FA0072A5A6 /* searchTabBarIcon.png */,
+				848063EF161693FA0072A5A6 /* searchTabBarIcon@2x.png */,
+				848063F0161693FA0072A5A6 /* starIcon.png */,
+				848063F1161693FA0072A5A6 /* starIcon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		848063F2161693FA0072A5A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				848063F3161693FA0072A5A6 /* DictInfo.h */,
+				848063F4161693FA0072A5A6 /* DictInfo.m */,
+				848063F5161693FA0072A5A6 /* MusicInfo.h */,
+				848063F6161693FA0072A5A6 /* MusicInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		848063F7161693FA0072A5A6 /* Mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				848063F8161693FA0072A5A6 /* abattuta.mp3 */,
+				848063F9161693FA0072A5A6 /* acappella.mp3 */,
+				848063FA161693FA0072A5A6 /* acapriccio.mp3 */,
+				848063FB161693FA0072A5A6 /* accel.mp3 */,
+				848063FC161693FA0072A5A6 /* accelerando.mp3 */,
+				848063FD161693FA0072A5A6 /* accent.mp3 */,
+				848063FE161693FA0072A5A6 /* adagio.mp3 */,
+				848063FF161693FA0072A5A6 /* adeux.mp3 */,
+				84806400161693FA0072A5A6 /* adue.mp3 */,
+				84806401161693FA0072A5A6 /* allargando.mp3 */,
+				84806402161693FA0072A5A6 /* allegretto.mp3 */,
+				84806403161693FA0072A5A6 /* allegrissimo.mp3 */,
+				84806404161693FA0072A5A6 /* allegro.mp3 */,
+				84806405161693FA0072A5A6 /* allemande.mp3 */,
+				84806406161693FA0072A5A6 /* allottava.mp3 */,
+				84806407161693FA0072A5A6 /* amoroso.mp3 */,
+				84806408161693FA0072A5A6 /* andante.mp3 */,
+				84806409161693FA0072A5A6 /* andantino.mp3 */,
+				8480640A161693FA0072A5A6 /* apiacere.mp3 */,
+				8480640B161693FA0072A5A6 /* appassionato.mp3 */,
+				8480640C161693FA0072A5A6 /* aria.mp3 */,
+				8480640D161693FA0072A5A6 /* assai.mp3 */,
+				8480640E161693FA0072A5A6 /* atempo.mp3 */,
+				8480640F161693FA0072A5A6 /* ballade.mp3 */,
+				84806410161693FA0072A5A6 /* balloon.wav */,
+				84806411161693FA0072A5A6 /* bassa.mp3 */,
+				84806412161693FA0072A5A6 /* bourree.mp3 */,
+				84806413161693FA0072A5A6 /* ca.mp3 */,
+				84806414161693FA0072A5A6 /* calando.mp3 */,
+				84806415161693FA0072A5A6 /* cantata.mp3 */,
+				84806416161693FA0072A5A6 /* capriccio.mp3 */,
+				84806417161693FA0072A5A6 /* chaconne.mp3 */,
+				84806418161693FA0072A5A6 /* circa.mp3 */,
+				84806419161693FA0072A5A6 /* col.mp3 */,
+				8480641A161693FA0072A5A6 /* conbrio.mp3 */,
+				8480641B161693FA0072A5A6 /* confuoco.mp3 */,
+				8480641C161693FA0072A5A6 /* cresc.mp3 */,
+				8480641D161693FA0072A5A6 /* crescendo.mp3 */,
+				8480641E161693FA0072A5A6 /* dacapo.mp3 */,
+				8480641F161693FA0072A5A6 /* dalsegno.mp3 */,
+				84806420161693FA0072A5A6 /* dance.mp3 */,
+				84806421161693FA0072A5A6 /* dc.mp3 */,
+				84806422161693FA0072A5A6 /* decresc.mp3 */,
+				84806423161693FA0072A5A6 /* decrescendo.mp3 */,
+				84806424161693FA0072A5A6 /* dim.mp3 */,
+				84806425161693FA0072A5A6 /* diminuendo.mp3 */,
+				84806426161693FA0072A5A6 /* dolce.mp3 */,
+				84806427161693FA0072A5A6 /* dolcissimo.mp3 */,
+				84806428161693FA0072A5A6 /* dolente.mp3 */,
+				84806429161693FA0072A5A6 /* doppel.mp3 */,
+				8480642A161693FA0072A5A6 /* doppelt.mp3 */,
+				8480642B161693FA0072A5A6 /* doppio.mp3 */,
+				8480642C161693FA0072A5A6 /* double.mp3 */,
+				8480642D161693FA0072A5A6 /* ds.mp3 */,
+				8480642E161693FA0072A5A6 /* duecorde.mp3 */,
+				8480642F161693FA0072A5A6 /* elegante.mp3 */,
+				84806430161693FA0072A5A6 /* energico.mp3 */,
+				84806431161693FA0072A5A6 /* etude.mp3 */,
+				84806432161693FA0072A5A6 /* f.mp3 */,
+				84806433161693FA0072A5A6 /* fantasia.mp3 */,
+				84806434161693FA0072A5A6 /* festivo.mp3 */,
+				84806435161693FA0072A5A6 /* ff.mp3 */,
+				84806436161693FA0072A5A6 /* fff.mp3 */,
+				84806437161693FA0072A5A6 /* fiero.mp3 */,
+				84806438161693FA0072A5A6 /* finale.mp3 */,
+				84806439161693FA0072A5A6 /* forte.mp3 */,
+				8480643A161693FA0072A5A6 /* fortepiano.mp3 */,
+				8480643B161693FA0072A5A6 /* fortissimo.mp3 */,
+				8480643C161693FA0072A5A6 /* fortissississimo.mp3 */,
+				8480643D161693FA0072A5A6 /* forzando.mp3 */,
+				8480643E161693FA0072A5A6 /* fp.mp3 */,
+				8480643F161693FA0072A5A6 /* fugue.mp3 */,
+				84806440161693FA0072A5A6 /* fz.mp3 */,
+				84806441161693FA0072A5A6 /* gavotte.mp3 */,
+				84806442161693FA0072A5A6 /* gigue.mp3 */,
+				84806443161693FA0072A5A6 /* gliss.mp3 */,
+				84806444161693FA0072A5A6 /* glissando.mp3 */,
+				84806445161693FA0072A5A6 /* grave.mp3 */,
+				84806446161693FA0072A5A6 /* grazioso.mp3 */,
+				84806447161693FA0072A5A6 /* guerriero.mp3 */,
+				84806448161693FA0072A5A6 /* habanera.mp3 */,
+				84806449161693FA0072A5A6 /* impetuoso.mp3 */,
+				8480644A161693FA0072A5A6 /* interlude.mp3 */,
+				8480644B161693FA0072A5A6 /* intermezzo.mp3 */,
+				8480644C161693FA0072A5A6 /* largamente.mp3 */,
+				8480644D161693FA0072A5A6 /* larghetto.mp3 */,
+				8480644E161693FA0072A5A6 /* largo.mp3 */,
+				8480644F161693FA0072A5A6 /* legato.mp3 */,
+				84806450161693FA0072A5A6 /* lento.mp3 */,
+				84806451161693FA0072A5A6 /* maestoso.mp3 */,
+				84806452161693FA0072A5A6 /* mazurka.mp3 */,
+				84806453161693FA0072A5A6 /* meno.mp3 */,
+				84806454161693FA0072A5A6 /* menomosso.mp3 */,
+				84806455161693FA0072A5A6 /* mesto.mp3 */,
+				84806456161693FA0072A5A6 /* mezzo.mp3 */,
+				84806457161693FA0072A5A6 /* mezzoforte.mp3 */,
+				84806458161693FA0072A5A6 /* mezzopiano.mp3 */,
+				84806459161693FA0072A5A6 /* mf.mp3 */,
+				8480645A161693FA0072A5A6 /* minore.mp3 */,
+				8480645B161693FA0072A5A6 /* moderato.mp3 */,
+				8480645C161693FA0072A5A6 /* molto.mp3 */,
+				8480645D161693FA0072A5A6 /* morendo.mp3 */,
+				8480645E161693FA0072A5A6 /* mp.mp3 */,
+				8480645F161693FA0072A5A6 /* overture.mp3 */,
+				84806460161693FA0072A5A6 /* p.mp3 */,
+				84806461161693FA0072A5A6 /* parlando.mp3 */,
+				84806462161693FA0072A5A6 /* passacaglia.mp3 */,
+				84806463161693FA0072A5A6 /* passionato.mp3 */,
+				84806464161693FA0072A5A6 /* pastorale.mp3 */,
+				84806465161693FA0072A5A6 /* perdendosi.mp3 */,
+				84806466161693FA0072A5A6 /* pesante.mp3 */,
+				84806467161693FA0072A5A6 /* pf.mp3 */,
+				84806468161693FA0072A5A6 /* pianissimo.mp3 */,
+				84806469161693FA0072A5A6 /* pianississimo.mp3 */,
+				8480646A161693FA0072A5A6 /* piano.mp3 */,
+				8480646B161693FA0072A5A6 /* pianoforte.mp3 */,
+				8480646C161693FA0072A5A6 /* piu.mp3 */,
+				8480646D161693FA0072A5A6 /* piumosso.mp3 */,
+				8480646E161693FA0072A5A6 /* piumoto.mp3 */,
+				8480646F161693FA0072A5A6 /* poco.mp3 */,
+				84806470161693FA0072A5A6 /* polka.mp3 */,
+				84806471161693FA0072A5A6 /* polonaise.mp3 */,
+				84806472161693FA0072A5A6 /* pomposo.mp3 */,
+				84806473161693FA0072A5A6 /* pp.mp3 */,
+				84806474161693FA0072A5A6 /* ppp.mp3 */,
+				84806475161693FA0072A5A6 /* prelude.mp3 */,
+				84806476161693FA0072A5A6 /* prestissimo.mp3 */,
+				84806477161693FA0072A5A6 /* presto.mp3 */,
+				84806478161693FA0072A5A6 /* quieto.mp3 */,
+				84806479161693FA0072A5A6 /* rall.mp3 */,
+				8480647A161693FA0072A5A6 /* rallentando.mp3 */,
+				8480647B161693FA0072A5A6 /* recitative.mp3 */,
+				8480647C161693FA0072A5A6 /* religioso.mp3 */,
+				8480647D161693FA0072A5A6 /* restez.mp3 */,
+				8480647E161693FA0072A5A6 /* rhapsody.mp3 */,
+				8480647F161693FA0072A5A6 /* rit.mp3 */,
+				84806480161693FA0072A5A6 /* ritard.mp3 */,
+				84806481161693FA0072A5A6 /* ritardando.mp3 */,
+				84806482161693FA0072A5A6 /* riten.mp3 */,
+				84806483161693FA0072A5A6 /* ritenuto.mp3 */,
+				84806484161693FA0072A5A6 /* rumba.mp3 */,
+				84806485161693FA0072A5A6 /* rustico.mp3 */,
+				84806486161693FA0072A5A6 /* sarabande.mp3 */,
+				84806487161693FA0072A5A6 /* scherzando.mp3 */,
+				84806488161693FA0072A5A6 /* scherzo.mp3 */,
+				84806489161693FA0072A5A6 /* semplice.mp3 */,
+				8480648A161693FA0072A5A6 /* sentimento.mp3 */,
+				8480648B161693FA0072A5A6 /* sf.mp3 */,
+				8480648C161693FA0072A5A6 /* sforzando.mp3 */,
+				8480648D161693FA0072A5A6 /* sforzandopiano.mp3 */,
+				8480648E161693FA0072A5A6 /* sfp.mp3 */,
+				8480648F161693FA0072A5A6 /* sfz.mp3 */,
+				84806490161693FA0072A5A6 /* smorzando.mp3 */,
+				84806491161693FA0072A5A6 /* solo.mp3 */,
+				84806492161693FA0072A5A6 /* sonata.mp3 */,
+				84806493161693FA0072A5A6 /* sonatina.mp3 */,
+				84806494161693FA0072A5A6 /* sottovoce.mp3 */,
+				84806495161693FA0072A5A6 /* spianato.mp3 */,
+				84806496161693FA0072A5A6 /* staccatissimo.mp3 */,
+				84806497161693FA0072A5A6 /* staccato.mp3 */,
+				84806498161693FA0072A5A6 /* strepitoso.mp3 */,
+				84806499161693FA0072A5A6 /* string.mp3 */,
+				8480649A161693FA0072A5A6 /* stringendo.mp3 */,
+				8480649B161693FA0072A5A6 /* subito.mp3 */,
+				8480649C161693FA0072A5A6 /* symphony.mp3 */,
+				8480649D161693FA0072A5A6 /* tango.mp3 */,
+				8480649E161693FA0072A5A6 /* tarantella.mp3 */,
+				8480649F161693FA0072A5A6 /* tempoprimo.mp3 */,
+				848064A0161693FA0072A5A6 /* tenuto.mp3 */,
+				848064A1161693FA0072A5A6 /* toccata.mp3 */,
+				848064A2161693FA0072A5A6 /* tranquillo.mp3 */,
+				848064A3161693FA0072A5A6 /* tuttaforza.mp3 */,
+				848064A4161693FA0072A5A6 /* tutti.mp3 */,
+				848064A5161693FA0072A5A6 /* unacorda.mp3 */,
+				848064A6161693FA0072A5A6 /* vivace.mp3 */,
+				848064A7161693FA0072A5A6 /* vivo.mp3 */,
+				848064A8161693FA0072A5A6 /* waltz.mp3 */,
+			);
+			path = Mp3;
+			sourceTree = "<group>";
+		};
+		848064A9161693FA0072A5A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				848064AA161693FA0072A5A6 /* MyDetailView.h */,
+				848064AB161693FA0072A5A6 /* MyDetailView.m */,
+				848064AC161693FA0072A5A6 /* MyLabel.h */,
+				848064AD161693FA0072A5A6 /* MyLabel.m */,
+				848064AE161693FA0072A5A6 /* MyLabelDelegate.h */,
+				848064AF161693FA0072A5A6 /* MySubCell.h */,
+				848064B0161693FA0072A5A6 /* MySubCell.m */,
+				848064B1161693FA0072A5A6 /* MySubCell.xib */,
+				848064B2161693FA0072A5A6 /* SpeakImageView.h */,
+				848064B3161693FA0072A5A6 /* SpeakImageView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +933,218 @@
 			buildActionMask = 2147483647;
 			files = (
 				848063A9161693860072A5A6 /* InfoPlist.strings in Resources */,
-				848063B1161693860072A5A6 /* Default.png in Resources */,
-				848063B3161693860072A5A6 /* Default@2x.png in Resources */,
-				848063B5161693860072A5A6 /* Default-568h@2x.png in Resources */,
+				848064B5161693FA0072A5A6 /* ClassfyIpadViewController.xib in Resources */,
+				848064B7161693FA0072A5A6 /* DetailNavigationViewController.xib in Resources */,
+				848064B9161693FA0072A5A6 /* HistoryIpadViewController.xib in Resources */,
+				848064BB161693FA0072A5A6 /* IndexIpadViewController.xib in Resources */,
+				848064BE161693FA0072A5A6 /* SearchIpadViewController.xib in Resources */,
+				848064C0161693FA0072A5A6 /* SpeedIpadViewController.xib in Resources */,
+				848064C2161693FA0072A5A6 /* music_db.db in Resources */,
+				848064C3161693FA0072A5A6 /* classfiyIcon.png in Resources */,
+				848064C4161693FA0072A5A6 /* clock.png in Resources */,
+				848064C5161693FA0072A5A6 /* clock@2x.png in Resources */,
+				848064C6161693FA0072A5A6 /* company_logo.png in Resources */,
+				848064C7161693FA0072A5A6 /* compassIcon.png in Resources */,
+				848064C8161693FA0072A5A6 /* compassIcon@2x.png in Resources */,
+				848064C9161693FA0072A5A6 /* Icon-Small-50.png in Resources */,
+				848064CA161693FA0072A5A6 /* Icon-Small.png in Resources */,
+				848064CB161693FA0072A5A6 /* Icon-Small@2x.png in Resources */,
+				848064CC161693FA0072A5A6 /* Icon.png in Resources */,
+				848064CD161693FA0072A5A6 /* Icon@2x.png in Resources */,
+				848064CE161693FA0072A5A6 /* icon_annoucement.png in Resources */,
+				848064CF161693FA0072A5A6 /* icon_glass.png in Resources */,
+				848064D0161693FA0072A5A6 /* icon_star.png in Resources */,
+				848064D1161693FA0072A5A6 /* icon_time.png in Resources */,
+				848064D2161693FA0072A5A6 /* music.png in Resources */,
+				848064D3161693FA0072A5A6 /* note.png in Resources */,
+				848064D4161693FA0072A5A6 /* note@2x.png in Resources */,
+				848064D5161693FA0072A5A6 /* searchTabBarIcon.png in Resources */,
+				848064D6161693FA0072A5A6 /* searchTabBarIcon@2x.png in Resources */,
+				848064D7161693FA0072A5A6 /* starIcon.png in Resources */,
+				848064D8161693FA0072A5A6 /* starIcon@2x.png in Resources */,
+				848064DB161693FA0072A5A6 /* abattuta.mp3 in Resources */,
+				848064DC161693FA0072A5A6 /* acappella.mp3 in Resources */,
+				848064DD161693FA0072A5A6 /* acapriccio.mp3 in Resources */,
+				848064DE161693FA0072A5A6 /* accel.mp3 in Resources */,
+				848064DF161693FA0072A5A6 /* accelerando.mp3 in Resources */,
+				848064E0161693FA0072A5A6 /* accent.mp3 in Resources */,
+				848064E1161693FA0072A5A6 /* adagio.mp3 in Resources */,
+				848064E2161693FA0072A5A6 /* adeux.mp3 in Resources */,
+				848064E3161693FA0072A5A6 /* adue.mp3 in Resources */,
+				848064E4161693FA0072A5A6 /* allargando.mp3 in Resources */,
+				848064E5161693FA0072A5A6 /* allegretto.mp3 in Resources */,
+				848064E6161693FA0072A5A6 /* allegrissimo.mp3 in Resources */,
+				848064E7161693FA0072A5A6 /* allegro.mp3 in Resources */,
+				848064E8161693FA0072A5A6 /* allemande.mp3 in Resources */,
+				848064E9161693FA0072A5A6 /* allottava.mp3 in Resources */,
+				848064EA161693FA0072A5A6 /* amoroso.mp3 in Resources */,
+				848064EB161693FA0072A5A6 /* andante.mp3 in Resources */,
+				848064EC161693FA0072A5A6 /* andantino.mp3 in Resources */,
+				848064ED161693FA0072A5A6 /* apiacere.mp3 in Resources */,
+				848064EE161693FA0072A5A6 /* appassionato.mp3 in Resources */,
+				848064EF161693FA0072A5A6 /* aria.mp3 in Resources */,
+				848064F0161693FA0072A5A6 /* assai.mp3 in Resources */,
+				848064F1161693FA0072A5A6 /* atempo.mp3 in Resources */,
+				848064F2161693FA0072A5A6 /* ballade.mp3 in Resources */,
+				848064F3161693FA0072A5A6 /* balloon.wav in Resources */,
+				848064F4161693FA0072A5A6 /* bassa.mp3 in Resources */,
+				848064F5161693FA0072A5A6 /* bourree.mp3 in Resources */,
+				848064F6161693FA0072A5A6 /* ca.mp3 in Resources */,
+				848064F7161693FA0072A5A6 /* calando.mp3 in Resources */,
+				848064F8161693FA0072A5A6 /* cantata.mp3 in Resources */,
+				848064F9161693FA0072A5A6 /* capriccio.mp3 in Resources */,
+				848064FA161693FA0072A5A6 /* chaconne.mp3 in Resources */,
+				848064FB161693FA0072A5A6 /* circa.mp3 in Resources */,
+				848064FC161693FA0072A5A6 /* col.mp3 in Resources */,
+				848064FD161693FA0072A5A6 /* conbrio.mp3 in Resources */,
+				848064FE161693FA0072A5A6 /* confuoco.mp3 in Resources */,
+				848064FF161693FA0072A5A6 /* cresc.mp3 in Resources */,
+				84806500161693FA0072A5A6 /* crescendo.mp3 in Resources */,
+				84806501161693FA0072A5A6 /* dacapo.mp3 in Resources */,
+				84806502161693FA0072A5A6 /* dalsegno.mp3 in Resources */,
+				84806503161693FA0072A5A6 /* dance.mp3 in Resources */,
+				84806504161693FA0072A5A6 /* dc.mp3 in Resources */,
+				84806505161693FA0072A5A6 /* decresc.mp3 in Resources */,
+				84806506161693FA0072A5A6 /* decrescendo.mp3 in Resources */,
+				84806507161693FA0072A5A6 /* dim.mp3 in Resources */,
+				84806508161693FA0072A5A6 /* diminuendo.mp3 in Resources */,
+				84806509161693FA0072A5A6 /* dolce.mp3 in Resources */,
+				8480650A161693FA0072A5A6 /* dolcissimo.mp3 in Resources */,
+				8480650B161693FA0072A5A6 /* dolente.mp3 in Resources */,
+				8480650C161693FA0072A5A6 /* doppel.mp3 in Resources */,
+				8480650D161693FA0072A5A6 /* doppelt.mp3 in Resources */,
+				8480650E161693FA0072A5A6 /* doppio.mp3 in Resources */,
+				8480650F161693FA0072A5A6 /* double.mp3 in Resources */,
+				84806510161693FA0072A5A6 /* ds.mp3 in Resources */,
+				84806511161693FA0072A5A6 /* duecorde.mp3 in Resources */,
+				84806512161693FA0072A5A6 /* elegante.mp3 in Resources */,
+				84806513161693FA0072A5A6 /* energico.mp3 in Resources */,
+				84806514161693FA0072A5A6 /* etude.mp3 in Resources */,
+				84806515161693FA0072A5A6 /* f.mp3 in Resources */,
+				84806516161693FA0072A5A6 /* fantasia.mp3 in Resources */,
+				84806517161693FA0072A5A6 /* festivo.mp3 in Resources */,
+				84806518161693FA0072A5A6 /* ff.mp3 in Resources */,
+				84806519161693FA0072A5A6 /* fff.mp3 in Resources */,
+				8480651A161693FA0072A5A6 /* fiero.mp3 in Resources */,
+				8480651B161693FA0072A5A6 /* finale.mp3 in Resources */,
+				8480651C161693FA0072A5A6 /* forte.mp3 in Resources */,
+				8480651D161693FA0072A5A6 /* fortepiano.mp3 in Resources */,
+				8480651E161693FA0072A5A6 /* fortissimo.mp3 in Resources */,
+				8480651F161693FA0072A5A6 /* fortissississimo.mp3 in Resources */,
+				84806520161693FA0072A5A6 /* forzando.mp3 in Resources */,
+				84806521161693FA0072A5A6 /* fp.mp3 in Resources */,
+				84806522161693FA0072A5A6 /* fugue.mp3 in Resources */,
+				84806523161693FA0072A5A6 /* fz.mp3 in Resources */,
+				84806524161693FA0072A5A6 /* gavotte.mp3 in Resources */,
+				84806525161693FA0072A5A6 /* gigue.mp3 in Resources */,
+				84806526161693FA0072A5A6 /* gliss.mp3 in Resources */,
+				84806527161693FA0072A5A6 /* glissando.mp3 in Resources */,
+				84806528161693FA0072A5A6 /* grave.mp3 in Resources */,
+				84806529161693FA0072A5A6 /* grazioso.mp3 in Resources */,
+				8480652A161693FA0072A5A6 /* guerriero.mp3 in Resources */,
+				8480652B161693FA0072A5A6 /* habanera.mp3 in Resources */,
+				8480652C161693FA0072A5A6 /* impetuoso.mp3 in Resources */,
+				8480652D161693FA0072A5A6 /* interlude.mp3 in Resources */,
+				8480652E161693FA0072A5A6 /* intermezzo.mp3 in Resources */,
+				8480652F161693FA0072A5A6 /* largamente.mp3 in Resources */,
+				84806530161693FA0072A5A6 /* larghetto.mp3 in Resources */,
+				84806531161693FA0072A5A6 /* largo.mp3 in Resources */,
+				84806532161693FA0072A5A6 /* legato.mp3 in Resources */,
+				84806533161693FA0072A5A6 /* lento.mp3 in Resources */,
+				84806534161693FA0072A5A6 /* maestoso.mp3 in Resources */,
+				84806535161693FA0072A5A6 /* mazurka.mp3 in Resources */,
+				84806536161693FA0072A5A6 /* meno.mp3 in Resources */,
+				84806537161693FA0072A5A6 /* menomosso.mp3 in Resources */,
+				84806538161693FA0072A5A6 /* mesto.mp3 in Resources */,
+				84806539161693FA0072A5A6 /* mezzo.mp3 in Resources */,
+				8480653A161693FA0072A5A6 /* mezzoforte.mp3 in Resources */,
+				8480653B161693FA0072A5A6 /* mezzopiano.mp3 in Resources */,
+				8480653C161693FA0072A5A6 /* mf.mp3 in Resources */,
+				8480653D161693FA0072A5A6 /* minore.mp3 in Resources */,
+				8480653E161693FA0072A5A6 /* moderato.mp3 in Resources */,
+				8480653F161693FA0072A5A6 /* molto.mp3 in Resources */,
+				84806540161693FA0072A5A6 /* morendo.mp3 in Resources */,
+				84806541161693FA0072A5A6 /* mp.mp3 in Resources */,
+				84806542161693FA0072A5A6 /* overture.mp3 in Resources */,
+				84806543161693FA0072A5A6 /* p.mp3 in Resources */,
+				84806544161693FA0072A5A6 /* parlando.mp3 in Resources */,
+				84806545161693FA0072A5A6 /* passacaglia.mp3 in Resources */,
+				84806546161693FA0072A5A6 /* passionato.mp3 in Resources */,
+				84806547161693FA0072A5A6 /* pastorale.mp3 in Resources */,
+				84806548161693FA0072A5A6 /* perdendosi.mp3 in Resources */,
+				84806549161693FA0072A5A6 /* pesante.mp3 in Resources */,
+				8480654A161693FA0072A5A6 /* pf.mp3 in Resources */,
+				8480654B161693FA0072A5A6 /* pianissimo.mp3 in Resources */,
+				8480654C161693FA0072A5A6 /* pianississimo.mp3 in Resources */,
+				8480654D161693FA0072A5A6 /* piano.mp3 in Resources */,
+				8480654E161693FA0072A5A6 /* pianoforte.mp3 in Resources */,
+				8480654F161693FA0072A5A6 /* piu.mp3 in Resources */,
+				84806550161693FA0072A5A6 /* piumosso.mp3 in Resources */,
+				84806551161693FA0072A5A6 /* piumoto.mp3 in Resources */,
+				84806552161693FA0072A5A6 /* poco.mp3 in Resources */,
+				84806553161693FA0072A5A6 /* polka.mp3 in Resources */,
+				84806554161693FA0072A5A6 /* polonaise.mp3 in Resources */,
+				84806555161693FA0072A5A6 /* pomposo.mp3 in Resources */,
+				84806556161693FA0072A5A6 /* pp.mp3 in Resources */,
+				84806557161693FA0072A5A6 /* ppp.mp3 in Resources */,
+				84806558161693FA0072A5A6 /* prelude.mp3 in Resources */,
+				84806559161693FA0072A5A6 /* prestissimo.mp3 in Resources */,
+				8480655A161693FA0072A5A6 /* presto.mp3 in Resources */,
+				8480655B161693FA0072A5A6 /* quieto.mp3 in Resources */,
+				8480655C161693FA0072A5A6 /* rall.mp3 in Resources */,
+				8480655D161693FA0072A5A6 /* rallentando.mp3 in Resources */,
+				8480655E161693FA0072A5A6 /* recitative.mp3 in Resources */,
+				8480655F161693FA0072A5A6 /* religioso.mp3 in Resources */,
+				84806560161693FA0072A5A6 /* restez.mp3 in Resources */,
+				84806561161693FA0072A5A6 /* rhapsody.mp3 in Resources */,
+				84806562161693FA0072A5A6 /* rit.mp3 in Resources */,
+				84806563161693FA0072A5A6 /* ritard.mp3 in Resources */,
+				84806564161693FA0072A5A6 /* ritardando.mp3 in Resources */,
+				84806565161693FA0072A5A6 /* riten.mp3 in Resources */,
+				84806566161693FA0072A5A6 /* ritenuto.mp3 in Resources */,
+				84806567161693FA0072A5A6 /* rumba.mp3 in Resources */,
+				84806568161693FA0072A5A6 /* rustico.mp3 in Resources */,
+				84806569161693FA0072A5A6 /* sarabande.mp3 in Resources */,
+				8480656A161693FA0072A5A6 /* scherzando.mp3 in Resources */,
+				8480656B161693FA0072A5A6 /* scherzo.mp3 in Resources */,
+				8480656C161693FA0072A5A6 /* semplice.mp3 in Resources */,
+				8480656D161693FA0072A5A6 /* sentimento.mp3 in Resources */,
+				8480656E161693FA0072A5A6 /* sf.mp3 in Resources */,
+				8480656F161693FA0072A5A6 /* sforzando.mp3 in Resources */,
+				84806570161693FA0072A5A6 /* sforzandopiano.mp3 in Resources */,
+				84806571161693FA0072A5A6 /* sfp.mp3 in Resources */,
+				84806572161693FA0072A5A6 /* sfz.mp3 in Resources */,
+				84806573161693FA0072A5A6 /* smorzando.mp3 in Resources */,
+				84806574161693FA0072A5A6 /* solo.mp3 in Resources */,
+				84806575161693FA0072A5A6 /* sonata.mp3 in Resources */,
+				84806576161693FA0072A5A6 /* sonatina.mp3 in Resources */,
+				84806577161693FA0072A5A6 /* sottovoce.mp3 in Resources */,
+				84806578161693FA0072A5A6 /* spianato.mp3 in Resources */,
+				84806579161693FA0072A5A6 /* staccatissimo.mp3 in Resources */,
+				8480657A161693FA0072A5A6 /* staccato.mp3 in Resources */,
+				8480657B161693FA0072A5A6 /* strepitoso.mp3 in Resources */,
+				8480657C161693FA0072A5A6 /* string.mp3 in Resources */,
+				8480657D161693FA0072A5A6 /* stringendo.mp3 in Resources */,
+				8480657E161693FA0072A5A6 /* subito.mp3 in Resources */,
+				8480657F161693FA0072A5A6 /* symphony.mp3 in Resources */,
+				84806580161693FA0072A5A6 /* tango.mp3 in Resources */,
+				84806581161693FA0072A5A6 /* tarantella.mp3 in Resources */,
+				84806582161693FA0072A5A6 /* tempoprimo.mp3 in Resources */,
+				84806583161693FA0072A5A6 /* tenuto.mp3 in Resources */,
+				84806584161693FA0072A5A6 /* toccata.mp3 in Resources */,
+				84806585161693FA0072A5A6 /* tranquillo.mp3 in Resources */,
+				84806586161693FA0072A5A6 /* tuttaforza.mp3 in Resources */,
+				84806587161693FA0072A5A6 /* tutti.mp3 in Resources */,
+				84806588161693FA0072A5A6 /* unacorda.mp3 in Resources */,
+				84806589161693FA0072A5A6 /* vivace.mp3 in Resources */,
+				8480658A161693FA0072A5A6 /* vivo.mp3 in Resources */,
+				8480658B161693FA0072A5A6 /* waltz.mp3 in Resources */,
+				8480658F161693FA0072A5A6 /* MySubCell.xib in Resources */,
+				8480659A161698460072A5A6 /* icon_copy.png in Resources */,
+				8429DC371616F10100F7DC9D /* Default-Landscape~ipad.png in Resources */,
+				8429DC391616F10B00F7DC9D /* Default-Landscape@2x~ipad.png in Resources */,
+				8429DC3B1616F18E00F7DC9D /* Default-Portrait~ipad.png in Resources */,
+				8429DC3D1616F19F00F7DC9D /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +1158,20 @@
 				848063AB161693860072A5A6 /* main.m in Sources */,
 				848063AF161693860072A5A6 /* AppDelegate.m in Sources */,
 				848063B8161693860072A5A6 /* MusicalTerms.xcdatamodeld in Sources */,
+				848064B4161693FA0072A5A6 /* ClassfyIpadViewController.m in Sources */,
+				848064B6161693FA0072A5A6 /* DetailNavigationViewController.m in Sources */,
+				848064B8161693FA0072A5A6 /* HistoryIpadViewController.m in Sources */,
+				848064BA161693FA0072A5A6 /* IndexIpadViewController.m in Sources */,
+				848064BC161693FA0072A5A6 /* RootIpadViewController.m in Sources */,
+				848064BD161693FA0072A5A6 /* SearchIpadViewController.m in Sources */,
+				848064BF161693FA0072A5A6 /* SpeedIpadViewController.m in Sources */,
+				848064C1161693FA0072A5A6 /* DataBase.m in Sources */,
+				848064D9161693FA0072A5A6 /* DictInfo.m in Sources */,
+				848064DA161693FA0072A5A6 /* MusicInfo.m in Sources */,
+				8480658C161693FA0072A5A6 /* MyDetailView.m in Sources */,
+				8480658D161693FA0072A5A6 /* MyLabel.m in Sources */,
+				8480658E161693FA0072A5A6 /* MySubCell.m in Sources */,
+				84806590161693FA0072A5A6 /* SpeakImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +1243,16 @@
 		848063BC161693860072A5A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: runes cn";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: runes cn";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicalTerms/MusicalTerms-Prefix.pch";
 				INFOPLIST_FILE = "MusicalTerms/MusicalTerms-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F58C6317-CC70-480E-9F7B-76013016AC38";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F58C6317-CC70-480E-9F7B-76013016AC38";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,10 +1260,17 @@
 		848063BD161693860072A5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: runes cn";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: runes cn";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicalTerms/MusicalTerms-Prefix.pch";
 				INFOPLIST_FILE = "MusicalTerms/MusicalTerms-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F58C6317-CC70-480E-9F7B-76013016AC38";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F58C6317-CC70-480E-9F7B-76013016AC38";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,6 +1294,7 @@
 				848063BD161693860072A5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

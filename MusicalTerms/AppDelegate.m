@@ -13,14 +13,26 @@
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@synthesize indexIpadViewController,rootView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //indexIpadViewController = [[IndexIpadViewController alloc] initWithNibName:@"IndexIpadViewController" bundle:nil];
+    //self.window.rootViewController = indexIpadViewController;
+    //indexIpadViewController.delegate=self;
+    rootView = [[RootIpadViewController alloc] init];
+    [self.window setRootViewController:rootView];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)getMain{
+    rootView = [[RootIpadViewController alloc] init];
+    //[self.window addSubview:rootView.view];
+    [self.window setRootViewController:rootView];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
